@@ -3,707 +3,1058 @@
 
 <head>
 
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-<title>
-The Science of Climate Change | CCMF Guide
-</title>
+  <title>
+    The Science of Climate Change | CCMF Guide
+  </title>
 
-<link rel="stylesheet"
-href="style.css">
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
 
 
-<style>
+  <style>
 
-/* Course page specific styles */
+    /* =========================
+       COURSE HERO
+    ========================== */
 
-.course-hero {
+    .course-hero {
 
-  background:
-    linear-gradient(
-      120deg,
-      #002147,
-      #003e74
-    );
+      background:
+        linear-gradient(
+          120deg,
+          #002147,
+          #003e74
+        );
 
-  color: white;
+      color: white;
 
-  padding: 85px 28px;
-}
+      padding: 85px 28px;
 
+    }
 
-.course-hero-inner {
 
-  max-width: 1000px;
+    .course-hero-inner {
 
-  margin: auto;
-}
+      max-width: 1000px;
 
+      margin: auto;
 
-.back-link {
+    }
 
-  display: inline-block;
 
-  margin-bottom: 30px;
+    .back-link {
 
-  color: #cbdbea;
+      display: inline-block;
 
-  font-size: 14px;
-}
+      margin-bottom: 30px;
 
+      color: #cbdbea;
 
-.course-hero h1 {
+      font-size: 14px;
 
-  font-size: 54px;
+    }
 
-  line-height: 1.05;
 
-  margin: 10px 0 22px;
+    .back-link:hover {
 
-  letter-spacing: -1.5px;
-}
+      color: white;
 
+    }
 
-.course-subtitle {
 
-  max-width: 760px;
+    .course-label {
 
-  color: #dce8f3;
+      text-transform: uppercase;
 
-  font-size: 19px;
-}
+      letter-spacing: 2px;
 
+      font-size: 13px;
 
-.course-container {
+      font-weight: 700;
 
-  max-width: 1000px;
+      color: #9bcbea;
 
-  margin: auto;
+      margin-bottom: 15px;
 
-  padding: 70px 28px;
-}
+    }
 
 
-.course-section {
+    .course-hero h1 {
 
-  margin-bottom: 70px;
-}
+      font-size: 54px;
 
+      line-height: 1.05;
 
-.course-section h2 {
+      margin: 0 0 22px;
 
-  color: #13294b;
+      letter-spacing: -1.5px;
 
-  font-size: 32px;
+    }
 
-  margin-bottom: 22px;
-}
 
+    .course-subtitle {
 
-.course-section > p {
+      max-width: 760px;
 
-  color: #626d7d;
+      color: #dce8f3;
 
-  font-size: 17px;
-}
+      font-size: 19px;
 
+      line-height: 1.7;
 
-/* Assessment */
+    }
 
-.assessment-grid {
 
-  display: grid;
 
-  grid-template-columns:
-    repeat(3, 1fr);
+    /* =========================
+       COURSE CONTENT
+    ========================== */
 
-  gap: 16px;
+    .course-container {
 
-  margin-top: 25px;
-}
+      max-width: 1000px;
 
+      margin: auto;
 
-.assessment-card {
+      padding: 70px 28px;
 
-  background: white;
+    }
 
-  border:
-    1px solid #e2e7ed;
 
-  border-radius: 12px;
+    .course-section {
 
-  padding: 24px;
-}
+      margin-bottom: 75px;
 
+    }
 
-.assessment-value {
 
-  color: #0877b9;
+    .course-section h2 {
 
-  font-size: 34px;
+      color: #13294b;
 
-  font-weight: 700;
-}
+      font-size: 32px;
 
+      margin-bottom: 20px;
 
-.assessment-title {
+      letter-spacing: -0.5px;
 
-  color: #13294b;
+    }
 
-  font-weight: 600;
 
-  margin-top: 5px;
-}
+    .course-section > p {
 
+      color: #626d7d;
 
-/* Lectures */
+      font-size: 17px;
 
-.lecture-list {
+      line-height: 1.8;
 
-  display: flex;
+      max-width: 850px;
 
-  flex-direction: column;
+    }
 
-  gap: 14px;
-}
 
 
-.lecture {
+    /* =========================
+       ASSESSMENT
+    ========================== */
 
-  background: white;
+    .assessment-grid {
 
-  border:
-    1px solid #e1e6ec;
+      display: grid;
 
-  border-radius: 12px;
+      grid-template-columns:
+        repeat(3, 1fr);
 
-  padding: 24px;
+      gap: 16px;
 
-  display: grid;
+      margin-top: 28px;
 
-  grid-template-columns:
-    60px 1fr auto;
+    }
 
-  gap: 20px;
 
-  align-items: center;
-}
+    .assessment-card {
 
+      background: white;
 
-.lecture-number {
+      border:
+        1px solid #e2e7ed;
 
-  width: 48px;
+      border-radius: 14px;
 
-  height: 48px;
+      padding: 26px;
 
-  border-radius: 10px;
+    }
 
-  display: flex;
 
-  align-items: center;
+    .assessment-value {
 
-  justify-content: center;
+      color: #0877b9;
 
-  background: #edf5fa;
+      font-size: 36px;
 
-  color: #0877b9;
+      font-weight: 700;
 
-  font-weight: 700;
-}
+    }
 
 
-.lecture h3 {
+    .assessment-title {
 
-  margin: 0 0 6px;
+      color: #13294b;
 
-  color: #13294b;
+      font-weight: 600;
 
-  font-size: 18px;
-}
+      margin-top: 4px;
 
+    }
 
-.lecture p {
 
-  margin: 0;
+    .assessment-note {
 
-  color: #748091;
+      margin-top: 18px;
 
-  font-size: 14px;
-}
+      color: #7a8492;
 
+      font-size: 14px;
 
-.slide-button {
+    }
 
-  padding: 9px 14px;
 
-  border-radius: 7px;
 
-  background: #f0f5f9;
+    /* =========================
+       LECTURE LIST
+    ========================== */
 
-  color: #0877b9;
+    .lecture-list {
 
-  font-size: 13px;
+      display: flex;
 
-  font-weight: 600;
-}
+      flex-direction: column;
 
+      gap: 14px;
 
-@media(max-width: 700px) {
+      margin-top: 28px;
 
-  .assessment-grid {
+    }
 
-    grid-template-columns: 1fr;
-  }
 
+    .lecture {
 
-  .lecture {
+      background: white;
 
-    grid-template-columns:
-      50px 1fr;
-  }
+      border:
+        1px solid #e1e6ec;
 
+      border-radius: 14px;
 
-  .slide-button {
+      padding: 24px;
 
-    grid-column: 2;
-  }
+      display: grid;
 
+      grid-template-columns:
+        60px 1fr auto;
 
-  .course-hero h1 {
+      gap: 20px;
 
-    font-size: 42px;
-  }
+      align-items: center;
 
-}
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
 
-</style>
+    }
+
+
+    .lecture:hover {
+
+      transform:
+        translateY(-2px);
+
+      box-shadow:
+        0 10px 28px
+        rgba(25, 60, 90, 0.08);
+
+      border-color:
+        #cbd8e4;
+
+    }
+
+
+    .lecture-number {
+
+      width: 48px;
+
+      height: 48px;
+
+      border-radius: 10px;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      background: #edf5fa;
+
+      color: #0877b9;
+
+      font-weight: 700;
+
+    }
+
+
+    .lecture h3 {
+
+      margin: 0 0 6px;
+
+      color: #13294b;
+
+      font-size: 18px;
+
+      line-height: 1.4;
+
+    }
+
+
+    .lecture p {
+
+      margin: 0;
+
+      color: #748091;
+
+      font-size: 14px;
+
+      line-height: 1.6;
+
+    }
+
+
+
+    /* =========================
+       SLIDE BUTTON
+    ========================== */
+
+    .slide-button {
+
+      display: inline-block;
+
+      padding: 10px 15px;
+
+      border-radius: 8px;
+
+      background: #edf5fa;
+
+      color: #0877b9;
+
+      font-size: 13px;
+
+      font-weight: 600;
+
+      white-space: nowrap;
+
+      transition:
+        background 0.2s ease,
+        color 0.2s ease;
+
+    }
+
+
+    .slide-button:hover {
+
+      background: #0877b9;
+
+      color: white;
+
+    }
+
+
+
+    /* =========================
+       DISCLAIMER
+    ========================== */
+
+    .course-disclaimer {
+
+      background: #eef3f7;
+
+      border-left:
+        4px solid #0877b9;
+
+      padding: 20px 22px;
+
+      border-radius: 8px;
+
+      color: #657182;
+
+      font-size: 14px;
+
+      line-height: 1.7;
+
+    }
+
+
+
+    /* =========================
+       RESPONSIVE
+    ========================== */
+
+    @media(max-width: 760px) {
+
+      .assessment-grid {
+
+        grid-template-columns: 1fr;
+
+      }
+
+
+      .lecture {
+
+        grid-template-columns:
+          50px 1fr;
+
+      }
+
+
+      .slide-button {
+
+        grid-column: 2;
+
+        width: fit-content;
+
+        margin-top: 5px;
+
+      }
+
+
+      .course-hero h1 {
+
+        font-size: 42px;
+
+      }
+
+
+      .course-subtitle {
+
+        font-size: 17px;
+
+      }
+
+    }
+
+  </style>
 
 </head>
+
 
 
 <body>
 
 
-<header class="navbar">
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
 
-<div class="nav-container">
+  <header class="navbar">
 
-<a href="index.html"
-class="logo">
-CCMF Guide
-</a>
+    <div class="nav-container">
 
-<nav>
+      <a
+        href="index.html"
+        class="logo"
+      >
+        CCMF Guide
+      </a>
 
-<a href="index.html#courses">
-Courses
-</a>
 
-<a href="index.html#about">
-About
-</a>
+      <nav>
 
-</nav>
+        <a href="index.html#courses">
+          Courses
+        </a>
 
-</div>
+        <a href="index.html#about">
+          About
+        </a>
 
-</header>
+      </nav>
 
+    </div>
 
+  </header>
 
-<section class="course-hero">
 
-<div class="course-hero-inner">
 
-<a href="index.html"
-class="back-link">
+  <!-- =========================
+       COURSE HERO
+  ========================== -->
 
-← Back to courses
+  <section class="course-hero">
 
-</a>
+    <div class="course-hero-inner">
 
+      <a
+        href="index.html"
+        class="back-link"
+      >
+        ← Back to courses
+      </a>
 
-<p class="hero-label">
 
-COMPULSORY MODULE
+      <p class="course-label">
+        Compulsory Module
+      </p>
 
-</p>
 
+      <h1>
+        The Science of Climate Change
+      </h1>
 
-<h1>
 
-The Science of Climate Change
+      <p class="course-subtitle">
 
-</h1>
+        Explore the physical science behind climate change,
+        including radiative forcing, climate feedbacks,
+        the carbon cycle, climate modelling
+        and future climate projections.
 
+      </p>
 
-<p class="course-subtitle">
+    </div>
 
-An introduction to the physical science of climate change,
-covering radiative forcing, climate feedbacks,
-the carbon cycle, climate models and future climate projections.
+  </section>
 
-</p>
 
-</div>
 
-</section>
+  <!-- =========================
+       MAIN CONTENT
+  ========================== -->
 
+  <main class="course-container">
 
 
-<main class="course-container">
 
+    <!-- COURSE OVERVIEW -->
 
-<section class="course-section">
+    <section class="course-section">
 
-<h2>
-Course Overview
-</h2>
+      <h2>
+        Course Overview
+      </h2>
 
-<p>
 
-The module develops an understanding of the climate science
-underpinning IPCC reports, the observational evidence for
-anthropogenic warming, how computer models simulate the
-climate system, and the uncertainties associated with future
-climate projections.
+      <p>
 
-</p>
+        This module introduces the fundamental climate science
+        underpinning the IPCC reports. It examines the observational
+        evidence for anthropogenic warming, the physical processes
+        controlling Earth's climate, the use of computer models
+        to simulate the climate system, and the uncertainties
+        associated with future climate projections.
 
-</section>
+      </p>
 
+    </section>
 
 
-<section class="course-section">
 
-<h2>
-Assessment
-</h2>
+    <!-- ASSESSMENT -->
 
+    <section class="course-section">
 
-<div class="assessment-grid">
+      <h2>
+        Assessment
+      </h2>
 
 
-<div class="assessment-card">
+      <div class="assessment-grid">
 
-<div class="assessment-value">
-20%
-</div>
 
-<div class="assessment-title">
-Multiple Choice
-</div>
+        <div class="assessment-card">
 
-</div>
+          <div class="assessment-value">
+            20%
+          </div>
 
+          <div class="assessment-title">
+            Multiple Choice
+          </div>
 
+        </div>
 
-<div class="assessment-card">
 
-<div class="assessment-value">
-50%
-</div>
 
-<div class="assessment-title">
-Short Answer
-</div>
+        <div class="assessment-card">
 
-</div>
+          <div class="assessment-value">
+            50%
+          </div>
 
+          <div class="assessment-title">
+            Short Answer
+          </div>
 
+        </div>
 
-<div class="assessment-card">
 
-<div class="assessment-value">
-30%
-</div>
 
-<div class="assessment-title">
-Long Answer
-</div>
+        <div class="assessment-card">
 
-</div>
+          <div class="assessment-value">
+            30%
+          </div>
 
+          <div class="assessment-title">
+            Long Answer
+          </div>
 
-</div>
+        </div>
 
-</section>
 
+      </div>
 
 
-<section class="course-section">
+      <p class="assessment-note">
 
-<h2>
-Lecture Materials
-</h2>
+        The long-answer section requires one response
+        from a choice of two questions.
 
+      </p>
 
-<div class="lecture-list">
+    </section>
 
 
-<div class="lecture">
 
-<div class="lecture-number">
-01
-</div>
+    <!-- LECTURES -->
 
-<div>
+    <section class="course-section">
 
-<h3>
-Introduction
-</h3>
+      <h2>
+        Lecture Materials
+      </h2>
 
-<p>
-Module overview, learning outcomes and introduction to climate science.
-</p>
 
-</div>
+      <p>
 
-<span class="slide-button">
-Slides coming soon
-</span>
+        Browse the lecture topics below and open the corresponding
+        lecture slides.
 
-</div>
+      </p>
 
 
 
-<div class="lecture">
+      <div class="lecture-list">
 
-<div class="lecture-number">
-02
-</div>
 
-<div>
 
-<h3>
-A History of Climate Science and the IPCC
-</h3>
+        <!-- LECTURE 1 -->
 
-<p>
-Climate science history, greenhouse effect,
-IPCC and international climate negotiations.
-</p>
+        <div class="lecture">
 
-</div>
+          <div class="lecture-number">
+            01
+          </div>
 
-<span class="slide-button">
-Slides coming soon
-</span>
 
-</div>
+          <div>
 
+            <h3>
+              Introduction
+            </h3>
 
+            <p>
 
-<div class="lecture">
+              Module overview, learning outcomes
+              and introduction to climate science.
 
-<div class="lecture-number">
-03
-</div>
+            </p>
 
-<div>
+          </div>
 
-<h3>
-Radiative Balance and Radiative Forcing
-</h3>
 
-<p>
-Solar radiation, terrestrial radiation,
-greenhouse effect and Earth's energy balance.
-</p>
+          <a
+            class="slide-button"
+            href="slides/scc/1%20-%20Introduction.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
 
-</div>
+        </div>
 
-<span class="slide-button">
-Slides coming soon
-</span>
 
-</div>
 
+        <!-- LECTURE 2 -->
 
+        <div class="lecture">
 
-<div class="lecture">
+          <div class="lecture-number">
+            02
+          </div>
 
-<div class="lecture-number">
-04
-</div>
 
-<div>
+          <div>
 
-<h3>
-Climate Feedbacks & Sensitivity
-</h3>
+            <h3>
+              A History of Climate Science and the IPCC
+            </h3>
 
-<p>
-Energy budget, ECS, TCR and major climate feedback mechanisms.
-</p>
+            <p>
 
-</div>
+              The history of climate science,
+              the greenhouse effect, the IPCC
+              and international climate negotiations.
 
-<span class="slide-button">
-Slides coming soon
-</span>
+            </p>
 
-</div>
+          </div>
 
 
+          <a
+            class="slide-button"
+            href="slides/scc/2%20-%20IPCC.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
 
-<div class="lecture">
+        </div>
 
-<div class="lecture-number">
-05
-</div>
 
-<div>
 
-<h3>
-Elements of the Climate System
-</h3>
+        <!-- LECTURE 3 -->
 
-<p>
-Atmospheric circulation, ocean circulation,
-cryosphere and water cycle.
-</p>
+        <div class="lecture">
 
-</div>
+          <div class="lecture-number">
+            03
+          </div>
 
-<span class="slide-button">
-Slides coming soon
-</span>
 
-</div>
+          <div>
 
+            <h3>
+              Radiative Balance and Radiative Forcing
+            </h3>
 
+            <p>
 
-<div class="lecture">
+              Solar and terrestrial radiation,
+              the greenhouse effect,
+              Earth's energy balance
+              and radiative forcing.
 
-<div class="lecture-number">
-06
-</div>
+            </p>
 
-<div>
+          </div>
 
-<h3>
-The Carbon Cycle and Paleoclimate
-</h3>
 
-<p>
-Carbon reservoirs, human influence,
-sea-level change and paleoclimate evidence.
-</p>
+          <a
+            class="slide-button"
+            href="slides/scc/3%20-%20Radiative%20balance%20(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
 
-</div>
+        </div>
 
-<span class="slide-button">
-Slides coming soon
-</span>
 
-</div>
 
+        <!-- LECTURE 4 -->
 
+        <div class="lecture">
 
-<div class="lecture">
+          <div class="lecture-number">
+            04
+          </div>
 
-<div class="lecture-number">
-07
-</div>
 
-<div>
+          <div>
 
-<h3>
-Climate Variability and Modelling
-</h3>
+            <h3>
+              Climate Feedbacks &amp; Sensitivity
+            </h3>
 
-<p>
-Climate tipping points, simple climate models
-and global climate models.
-</p>
+            <p>
 
-</div>
+              Energy budget,
+              equilibrium climate sensitivity,
+              transient climate response
+              and climate feedback mechanisms.
 
-<span class="slide-button">
-Slides coming soon
-</span>
+            </p>
 
-</div>
+          </div>
 
 
+          <a
+            class="slide-button"
+            href="slides/scc/4%20-%20Climate%20feedbacks%20%26%20sensitivity.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
 
-<div class="lecture">
+        </div>
 
-<div class="lecture-number">
-08
-</div>
 
-<div>
 
-<h3>
-Evaluating and Using Climate Models
-</h3>
+        <!-- LECTURE 5 -->
 
-<p>
-Model parameterisation, observations,
-constraints and climate attribution.
-</p>
+        <div class="lecture">
 
-</div>
+          <div class="lecture-number">
+            05
+          </div>
 
-<span class="slide-button">
-Slides coming soon
-</span>
 
-</div>
+          <div>
 
+            <h3>
+              Elements of the Climate System
+            </h3>
 
+            <p>
 
-<div class="lecture">
+              Atmospheric circulation,
+              ocean circulation,
+              the cryosphere
+              and the water cycle.
 
-<div class="lecture-number">
-09
-</div>
+            </p>
 
-<div>
+          </div>
 
-<h3>
-Climate Projections
-</h3>
 
-<p>
-Future scenarios, climate projections,
-uncertainty and climate risk.
-</p>
+          <a
+            class="slide-button"
+            href="slides/scc/5%20-%20Elements%20of%20the%20climate%20system.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
 
-</div>
+        </div>
 
-<span class="slide-button">
-Slides coming soon
-</span>
 
-</div>
 
+        <!-- LECTURE 6 -->
 
-</div>
+        <div class="lecture">
 
-</section>
+          <div class="lecture-number">
+            06
+          </div>
 
 
-</main>
+          <div>
 
+            <h3>
+              The Carbon Cycle and Paleoclimate
+            </h3>
 
+            <p>
 
-<footer>
+              Carbon reservoirs,
+              the human influence on the carbon cycle,
+              sea-level change
+              and paleoclimate evidence.
 
-<p>
-CCMF Guide · Imperial College London
-</p>
+            </p>
 
-<p class="disclaimer">
-Unofficial student resource
-</p>
+          </div>
 
-</footer>
+
+          <a
+            class="slide-button"
+            href="slides/scc/6%20-%20The%20carbon%20cycle%20and%20paleoclimate.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- LECTURE 7 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            07
+          </div>
+
+
+          <div>
+
+            <h3>
+              Climate Variability and Modelling
+            </h3>
+
+            <p>
+
+              Climate tipping points,
+              simple climate models
+              and global climate models.
+
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/scc/7%20-%20Climate%20modelling.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- LECTURE 8 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            08
+          </div>
+
+
+          <div>
+
+            <h3>
+              Evaluating and Using Climate Models
+            </h3>
+
+            <p>
+
+              Model parameterisation,
+              model constraints,
+              observations,
+              climate attribution
+              and model evaluation.
+
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/scc/8%20-%20Evaluating%20climate%20models%20(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- LECTURE 9 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            09
+          </div>
+
+
+          <div>
+
+            <h3>
+              Climate Projections
+            </h3>
+
+            <p>
+
+              Future climate scenarios,
+              climate projections,
+              sources of uncertainty
+              and future climate risks.
+
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/scc/9%20-%20Climate%20projections.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- DISCLAIMER -->
+
+    <section class="course-section">
+
+      <div class="course-disclaimer">
+
+        CCMF Guide is an unofficial student-organised resource.
+        Course materials, teaching content and assessment structures
+        may change between academic years. Students should refer to
+        official Imperial College London materials for current
+        programme information.
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer>
+
+    <p>
+      CCMF Guide · Imperial College London
+    </p>
+
+    <p class="disclaimer">
+      Unofficial student resource
+    </p>
+
+  </footer>
 
 
 </body>
