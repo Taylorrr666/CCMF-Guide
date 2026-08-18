@@ -1,8 +1,8 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
   <meta charset="UTF-8">
 
   <meta
@@ -10,232 +10,174 @@
     content="width=device-width, initial-scale=1.0"
   >
 
-  <title>
-    The Science of Climate Change | CCMF Guide
-  </title>
+  <title>The Science of Climate Change | CCMF Guide</title>
 
   <link
     rel="stylesheet"
     href="style.css"
   >
 
-
   <style>
 
-    /* =========================
-       COURSE HERO
-    ========================== */
-
     .course-hero {
-
-      background:
-        linear-gradient(
-          120deg,
-          #002147,
-          #003e74
-        );
+      background: linear-gradient(
+        120deg,
+        #002147,
+        #003e74 60%,
+        #0877b9
+      );
 
       color: white;
-
-      padding: 85px 28px;
-
+      padding: 80px 28px;
     }
 
 
     .course-hero-inner {
-
-      max-width: 1000px;
-
-      margin: auto;
-
+      max-width: 1050px;
+      margin: 0 auto;
     }
 
 
     .back-link {
-
       display: inline-block;
+      margin-bottom: 28px;
 
-      margin-bottom: 30px;
-
-      color: #cbdbea;
-
+      color: #c9ddec;
       font-size: 14px;
 
+      text-decoration: none;
     }
 
 
     .back-link:hover {
-
       color: white;
-
     }
 
 
     .course-label {
+      margin: 0 0 12px;
 
-      text-transform: uppercase;
+      color: #9dd4f2;
 
-      letter-spacing: 2px;
-
-      font-size: 13px;
-
+      font-size: 12px;
       font-weight: 700;
 
-      color: #9bcbea;
-
-      margin-bottom: 15px;
-
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
     }
 
 
     .course-hero h1 {
-
-      font-size: 54px;
-
-      line-height: 1.05;
-
       margin: 0 0 22px;
 
-      letter-spacing: -1.5px;
+      max-width: 850px;
 
+      font-size: 54px;
+      line-height: 1.08;
+
+      letter-spacing: -1.5px;
     }
 
 
     .course-subtitle {
-
       max-width: 760px;
 
-      color: #dce8f3;
+      margin: 0;
+
+      color: #dbe8f2;
 
       font-size: 19px;
-
       line-height: 1.7;
-
     }
 
 
-
-    /* =========================
-       COURSE CONTENT
-    ========================== */
-
     .course-container {
+      max-width: 1050px;
 
-      max-width: 1000px;
-
-      margin: auto;
+      margin: 0 auto;
 
       padding: 70px 28px;
-
     }
 
 
     .course-section {
-
-      margin-bottom: 75px;
-
+      margin-bottom: 70px;
     }
 
 
     .course-section h2 {
+      margin: 0 0 18px;
 
       color: #13294b;
 
       font-size: 32px;
 
-      margin-bottom: 20px;
-
       letter-spacing: -0.5px;
-
     }
 
 
     .course-section > p {
-
-      color: #626d7d;
-
-      font-size: 17px;
-
-      line-height: 1.8;
-
       max-width: 850px;
 
+      margin: 0;
+
+      color: #657182;
+
+      font-size: 17px;
+      line-height: 1.8;
     }
 
 
-
-    /* =========================
-       ASSESSMENT
-    ========================== */
-
     .assessment-grid {
-
       display: grid;
 
-      grid-template-columns:
-        repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr);
 
       gap: 16px;
 
-      margin-top: 28px;
-
+      margin-top: 26px;
     }
 
 
     .assessment-card {
-
       background: white;
 
-      border:
-        1px solid #e2e7ed;
+      border: 1px solid #e1e6ec;
 
       border-radius: 14px;
 
       padding: 26px;
-
     }
 
 
     .assessment-value {
+      margin-bottom: 4px;
 
       color: #0877b9;
 
       font-size: 36px;
-
       font-weight: 700;
-
     }
 
 
     .assessment-title {
-
       color: #13294b;
 
+      font-size: 15px;
       font-weight: 600;
-
-      margin-top: 4px;
-
     }
 
 
     .assessment-note {
+      margin-top: 16px !important;
 
-      margin-top: 18px;
+      color: #7a8492 !important;
 
-      color: #7a8492;
-
-      font-size: 14px;
-
+      font-size: 14px !important;
     }
 
 
-
-    /* =========================
-       LECTURE LIST
-    ========================== */
-
     .lecture-list {
-
       display: flex;
 
       flex-direction: column;
@@ -243,109 +185,84 @@
       gap: 14px;
 
       margin-top: 28px;
-
     }
 
 
     .lecture {
-
-      background: white;
-
-      border:
-        1px solid #e1e6ec;
-
-      border-radius: 14px;
-
-      padding: 24px;
-
       display: grid;
 
-      grid-template-columns:
-        60px 1fr auto;
+      grid-template-columns: 58px 1fr auto;
+
+      align-items: center;
 
       gap: 20px;
 
-      align-items: center;
+      padding: 24px;
+
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
 
       transition:
         transform 0.2s ease,
         box-shadow 0.2s ease,
         border-color 0.2s ease;
-
     }
 
 
     .lecture:hover {
+      transform: translateY(-2px);
 
-      transform:
-        translateY(-2px);
+      border-color: #c8d7e4;
 
       box-shadow:
-        0 10px 28px
-        rgba(25, 60, 90, 0.08);
-
-      border-color:
-        #cbd8e4;
-
+        0 10px 26px
+        rgba(20, 50, 80, 0.08);
     }
 
 
     .lecture-number {
-
       width: 48px;
-
       height: 48px;
-
-      border-radius: 10px;
 
       display: flex;
 
       align-items: center;
-
       justify-content: center;
+
+      border-radius: 10px;
 
       background: #edf5fa;
 
       color: #0877b9;
 
       font-weight: 700;
-
     }
 
 
     .lecture h3 {
-
       margin: 0 0 6px;
 
       color: #13294b;
 
       font-size: 18px;
-
       line-height: 1.4;
-
     }
 
 
     .lecture p {
-
       margin: 0;
 
       color: #748091;
 
       font-size: 14px;
-
       line-height: 1.6;
-
     }
 
 
-
-    /* =========================
-       SLIDE BUTTON
-    ========================== */
-
     .slide-button {
-
       display: inline-block;
 
       padding: 10px 15px;
@@ -357,96 +274,69 @@
       color: #0877b9;
 
       font-size: 13px;
-
       font-weight: 600;
+
+      text-decoration: none;
 
       white-space: nowrap;
 
       transition:
         background 0.2s ease,
         color 0.2s ease;
-
     }
 
 
     .slide-button:hover {
-
       background: #0877b9;
 
       color: white;
-
     }
 
 
-
-    /* =========================
-       DISCLAIMER
-    ========================== */
-
-    .course-disclaimer {
+    .course-note {
+      padding: 20px 22px;
 
       background: #eef3f7;
 
-      border-left:
-        4px solid #0877b9;
-
-      padding: 20px 22px;
+      border-left: 4px solid #0877b9;
 
       border-radius: 8px;
 
       color: #657182;
 
       font-size: 14px;
-
       line-height: 1.7;
-
     }
 
 
-
-    /* =========================
-       RESPONSIVE
-    ========================== */
-
-    @media(max-width: 760px) {
-
-      .assessment-grid {
-
-        grid-template-columns: 1fr;
-
-      }
-
-
-      .lecture {
-
-        grid-template-columns:
-          50px 1fr;
-
-      }
-
-
-      .slide-button {
-
-        grid-column: 2;
-
-        width: fit-content;
-
-        margin-top: 5px;
-
-      }
-
+    @media (max-width: 760px) {
 
       .course-hero h1 {
-
         font-size: 42px;
-
       }
 
 
       .course-subtitle {
-
         font-size: 17px;
+      }
 
+
+      .assessment-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+      .lecture {
+        grid-template-columns: 50px 1fr;
+      }
+
+
+      .slide-button {
+        grid-column: 2;
+
+        width: fit-content;
+
+        margin-top: 4px;
       }
 
     }
@@ -456,13 +346,8 @@
 </head>
 
 
-
 <body>
 
-
-  <!-- =========================
-       NAVIGATION
-  ========================== -->
 
   <header class="navbar">
 
@@ -494,10 +379,6 @@
 
 
 
-  <!-- =========================
-       COURSE HERO
-  ========================== -->
-
   <section class="course-hero">
 
     <div class="course-hero-inner">
@@ -506,7 +387,7 @@
         href="index.html"
         class="back-link"
       >
-        ← Back to courses
+        ← Back to Courses
       </a>
 
 
@@ -535,15 +416,9 @@
 
 
 
-  <!-- =========================
-       MAIN CONTENT
-  ========================== -->
-
   <main class="course-container">
 
 
-
-    <!-- COURSE OVERVIEW -->
 
     <section class="course-section">
 
@@ -557,7 +432,7 @@
         This module introduces the fundamental climate science
         underpinning the IPCC reports. It examines the observational
         evidence for anthropogenic warming, the physical processes
-        controlling Earth's climate, the use of computer models
+        that shape Earth's climate, the use of computer models
         to simulate the climate system, and the uncertainties
         associated with future climate projections.
 
@@ -566,8 +441,6 @@
     </section>
 
 
-
-    <!-- ASSESSMENT -->
 
     <section class="course-section">
 
@@ -634,8 +507,6 @@
 
 
 
-    <!-- LECTURES -->
-
     <section class="course-section">
 
       <h2>
@@ -645,8 +516,8 @@
 
       <p>
 
-        Browse the lecture topics below and open the corresponding
-        lecture slides.
+        Browse the lecture topics below and open
+        the corresponding lecture slides.
 
       </p>
 
@@ -655,8 +526,6 @@
       <div class="lecture-list">
 
 
-
-        <!-- LECTURE 1 -->
 
         <div class="lecture">
 
@@ -672,10 +541,8 @@
             </h3>
 
             <p>
-
               Module overview, learning outcomes
               and introduction to climate science.
-
             </p>
 
           </div>
@@ -683,7 +550,7 @@
 
           <a
             class="slide-button"
-            href="slides/scc/1%20-%20Introduction.pdf"
+            href="./slides/scc/1%20-%20Introduction.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -693,8 +560,6 @@
         </div>
 
 
-
-        <!-- LECTURE 2 -->
 
         <div class="lecture">
 
@@ -710,11 +575,9 @@
             </h3>
 
             <p>
-
-              The history of climate science,
-              the greenhouse effect, the IPCC
-              and international climate negotiations.
-
+              Climate science history,
+              the greenhouse effect,
+              the IPCC and climate negotiations.
             </p>
 
           </div>
@@ -722,7 +585,7 @@
 
           <a
             class="slide-button"
-            href="slides/scc/2%20-%20IPCC.pdf"
+            href="./slides/scc/2%20-%20IPCC.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -732,8 +595,6 @@
         </div>
 
 
-
-        <!-- LECTURE 3 -->
 
         <div class="lecture">
 
@@ -749,12 +610,10 @@
             </h3>
 
             <p>
-
-              Solar and terrestrial radiation,
-              the greenhouse effect,
-              Earth's energy balance
-              and radiative forcing.
-
+              Solar radiation,
+              terrestrial radiation,
+              the greenhouse effect
+              and Earth's energy balance.
             </p>
 
           </div>
@@ -762,7 +621,7 @@
 
           <a
             class="slide-button"
-            href="slides/scc/3%20-%20Radiative%20balance%20(1).pdf"
+            href="./slides/scc/3%20-%20Radiative%20balance%20(1).pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -772,8 +631,6 @@
         </div>
 
 
-
-        <!-- LECTURE 4 -->
 
         <div class="lecture">
 
@@ -789,12 +646,10 @@
             </h3>
 
             <p>
-
               Energy budget,
-              equilibrium climate sensitivity,
+              climate sensitivity,
               transient climate response
-              and climate feedback mechanisms.
-
+              and climate feedbacks.
             </p>
 
           </div>
@@ -802,7 +657,7 @@
 
           <a
             class="slide-button"
-            href="slides/scc/4%20-%20Climate%20feedbacks%20%26%20sensitivity.pdf"
+            href="./slides/scc/4%20-%20Climate%20feedbacks%20%26%20sensitivity.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -812,8 +667,6 @@
         </div>
 
 
-
-        <!-- LECTURE 5 -->
 
         <div class="lecture">
 
@@ -829,12 +682,10 @@
             </h3>
 
             <p>
-
               Atmospheric circulation,
               ocean circulation,
               the cryosphere
               and the water cycle.
-
             </p>
 
           </div>
@@ -842,7 +693,7 @@
 
           <a
             class="slide-button"
-            href="slides/scc/5%20-%20Elements%20of%20the%20climate%20system.pdf"
+            href="./slides/scc/5%20-%20Elements%20of%20the%20climate%20system.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -852,8 +703,6 @@
         </div>
 
 
-
-        <!-- LECTURE 6 -->
 
         <div class="lecture">
 
@@ -869,12 +718,10 @@
             </h3>
 
             <p>
-
               Carbon reservoirs,
-              the human influence on the carbon cycle,
+              human influence on the carbon cycle,
               sea-level change
               and paleoclimate evidence.
-
             </p>
 
           </div>
@@ -882,7 +729,7 @@
 
           <a
             class="slide-button"
-            href="slides/scc/6%20-%20The%20carbon%20cycle%20and%20paleoclimate.pdf"
+            href="./slides/scc/6%20-%20The%20carbon%20cycle%20and%20paleoclimate.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -892,8 +739,6 @@
         </div>
 
 
-
-        <!-- LECTURE 7 -->
 
         <div class="lecture">
 
@@ -909,11 +754,9 @@
             </h3>
 
             <p>
-
               Climate tipping points,
               simple climate models
               and global climate models.
-
             </p>
 
           </div>
@@ -921,7 +764,7 @@
 
           <a
             class="slide-button"
-            href="slides/scc/7%20-%20Climate%20modelling.pdf"
+            href="./slides/scc/7%20-%20Climate%20modelling.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -931,8 +774,6 @@
         </div>
 
 
-
-        <!-- LECTURE 8 -->
 
         <div class="lecture">
 
@@ -948,13 +789,11 @@
             </h3>
 
             <p>
-
               Model parameterisation,
               model constraints,
               observations,
-              climate attribution
+              attribution
               and model evaluation.
-
             </p>
 
           </div>
@@ -962,7 +801,7 @@
 
           <a
             class="slide-button"
-            href="slides/scc/8%20-%20Evaluating%20climate%20models%20(1).pdf"
+            href="./slides/scc/8%20-%20Evaluating%20climate%20models%20(1).pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -972,8 +811,6 @@
         </div>
 
 
-
-        <!-- LECTURE 9 -->
 
         <div class="lecture">
 
@@ -989,12 +826,10 @@
             </h3>
 
             <p>
-
               Future climate scenarios,
               climate projections,
-              sources of uncertainty
-              and future climate risks.
-
+              uncertainty
+              and climate risk.
             </p>
 
           </div>
@@ -1002,7 +837,7 @@
 
           <a
             class="slide-button"
-            href="slides/scc/9%20-%20Climate%20projections.pdf"
+            href="./slides/scc/9%20-%20Climate%20projections.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -1019,17 +854,15 @@
 
 
 
-    <!-- DISCLAIMER -->
-
     <section class="course-section">
 
-      <div class="course-disclaimer">
+      <div class="course-note">
 
         CCMF Guide is an unofficial student-organised resource.
-        Course materials, teaching content and assessment structures
-        may change between academic years. Students should refer to
-        official Imperial College London materials for current
-        programme information.
+        Course content, assessment structures and teaching materials
+        may change between academic years. Students should refer
+        to official Imperial College London information
+        for current programme requirements.
 
       </div>
 
@@ -1040,15 +873,12 @@
 
 
 
-  <!-- =========================
-       FOOTER
-  ========================== -->
-
   <footer>
 
     <p>
       CCMF Guide · Imperial College London
     </p>
+
 
     <p class="disclaimer">
       Unofficial student resource
@@ -1060,3 +890,4 @@
 </body>
 
 </html>
+```
