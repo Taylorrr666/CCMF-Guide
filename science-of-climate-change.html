@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -127,6 +126,10 @@
     }
 
 
+    /* =========================
+       ASSESSMENT
+    ========================== */
+
     .assessment-grid {
       display: grid;
 
@@ -167,6 +170,16 @@
     }
 
 
+    .assessment-card p {
+      margin: 10px 0 0;
+
+      color: #748091;
+
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+
     .assessment-note {
       margin-top: 16px !important;
 
@@ -175,6 +188,10 @@
       font-size: 14px !important;
     }
 
+
+    /* =========================
+       LECTURES
+    ========================== */
 
     .lecture-list {
       display: flex;
@@ -347,6 +364,8 @@
 <body>
 
 
+  <!-- NAVIGATION -->
+
   <header class="navbar">
 
     <div class="nav-container">
@@ -376,6 +395,8 @@
   </header>
 
 
+
+  <!-- HERO -->
 
   <section class="course-hero">
 
@@ -418,6 +439,8 @@
 
 
 
+    <!-- COURSE OVERVIEW -->
+
     <section class="course-section">
 
       <h2>
@@ -428,11 +451,13 @@
       <p>
 
         This module introduces the fundamental climate science
-        underpinning the IPCC reports. It examines the observational
-        evidence for anthropogenic warming, the physical processes
-        that shape Earth's climate, the use of computer models
-        to simulate the climate system, and the uncertainties
-        associated with future climate projections.
+        underpinning the IPCC reports.
+
+        It examines the observational evidence for anthropogenic
+        warming, the physical processes that shape Earth's climate,
+        the use of computer models to simulate the climate system,
+        and the uncertainties and risks associated with future
+        climate projections.
 
       </p>
 
@@ -440,11 +465,94 @@
 
 
 
+    <!-- OVERALL MODULE ASSESSMENT -->
+
     <section class="course-section">
 
       <h2>
         Assessment
       </h2>
+
+
+      <div class="assessment-grid">
+
+
+        <div class="assessment-card">
+
+          <div class="assessment-value">
+            10%
+          </div>
+
+          <div class="assessment-title">
+            Coursework
+          </div>
+
+          <p>
+            Individual MCQ coursework test
+            under exam conditions.
+          </p>
+
+        </div>
+
+
+
+        <div class="assessment-card">
+
+          <div class="assessment-value">
+            5%
+          </div>
+
+          <div class="assessment-title">
+            Participation
+          </div>
+
+          <p>
+            Practical participation component.
+          </p>
+
+        </div>
+
+
+
+        <div class="assessment-card">
+
+          <div class="assessment-value">
+            85%
+          </div>
+
+          <div class="assessment-title">
+            Exam
+          </div>
+
+          <p>
+            Written end-of-module examination.
+          </p>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- EXAM STRUCTURE -->
+
+    <section class="course-section">
+
+      <h2>
+        Exam Structure
+      </h2>
+
+
+      <p>
+
+        The written exam is divided into three sections.
+        The percentages below refer to the weighting
+        within the exam, rather than the overall module grade.
+
+      </p>
 
 
       <div class="assessment-grid">
@@ -504,6 +612,8 @@
     </section>
 
 
+
+    <!-- LECTURE MATERIALS -->
 
     <section class="course-section">
 
@@ -579,7 +689,8 @@
             <p>
               Climate science history,
               the greenhouse effect,
-              the IPCC and climate negotiations.
+              the IPCC
+              and climate negotiations.
             </p>
 
           </div>
@@ -653,7 +764,7 @@
 
             <p>
               Energy budget,
-              equilibrium climate sensitivity,
+              climate sensitivity,
               transient climate response
               and climate feedbacks.
             </p>
@@ -870,14 +981,20 @@
 
 
 
+    <!-- DISCLAIMER -->
+
     <section class="course-section">
 
       <div class="course-note">
 
         CCMF Guide is an unofficial student-organised resource.
-        Course content, assessment structures and teaching materials
-        may change between academic years. Students should refer
-        to official Imperial College London information
+
+        Course content, assessment structures
+        and teaching materials may change
+        between academic years.
+
+        Students should refer to official
+        Imperial College London materials
         for current programme requirements.
 
       </div>
@@ -906,4 +1023,3 @@
 </body>
 
 </html>
-```
