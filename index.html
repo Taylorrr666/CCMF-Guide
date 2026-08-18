@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
 
   <meta
@@ -9,357 +10,20 @@
     content="width=device-width, initial-scale=1.0"
   >
 
-  <title>
-    Business Economics, Climate Change and the Environment | CCMF Guide
-  </title>
+  <title>CCMF Guide</title>
 
   <link
     rel="stylesheet"
     href="style.css"
   >
 
-  <style>
-
-    .course-hero {
-      background: linear-gradient(
-        120deg,
-        #002147,
-        #003e74 60%,
-        #0877b9
-      );
-
-      color: white;
-      padding: 80px 28px;
-    }
-
-
-    .course-hero-inner {
-      max-width: 1050px;
-      margin: 0 auto;
-    }
-
-
-    .back-link {
-      display: inline-block;
-      margin-bottom: 28px;
-
-      color: #c9ddec;
-      font-size: 14px;
-      text-decoration: none;
-    }
-
-
-    .back-link:hover {
-      color: white;
-    }
-
-
-    .course-label {
-      margin: 0 0 12px;
-
-      color: #9dd4f2;
-
-      font-size: 12px;
-      font-weight: 700;
-
-      letter-spacing: 1.8px;
-      text-transform: uppercase;
-    }
-
-
-    .course-hero h1 {
-      margin: 0 0 22px;
-
-      max-width: 900px;
-
-      font-size: 50px;
-      line-height: 1.08;
-
-      letter-spacing: -1.5px;
-    }
-
-
-    .course-subtitle {
-      max-width: 800px;
-
-      margin: 0;
-
-      color: #dbe8f2;
-
-      font-size: 19px;
-      line-height: 1.7;
-    }
-
-
-    .course-container {
-      max-width: 1050px;
-
-      margin: 0 auto;
-
-      padding: 70px 28px;
-    }
-
-
-    .course-section {
-      margin-bottom: 70px;
-    }
-
-
-    .course-section h2 {
-      margin: 0 0 18px;
-
-      color: #13294b;
-
-      font-size: 32px;
-
-      letter-spacing: -0.5px;
-    }
-
-
-    .course-section > p {
-      max-width: 880px;
-
-      margin: 0;
-
-      color: #657182;
-
-      font-size: 17px;
-      line-height: 1.8;
-    }
-
-
-    .assessment-grid {
-      display: grid;
-
-      grid-template-columns:
-        repeat(3, 1fr);
-
-      gap: 16px;
-
-      margin-top: 26px;
-    }
-
-
-    .assessment-card {
-      background: white;
-
-      border: 1px solid #e1e6ec;
-
-      border-radius: 14px;
-
-      padding: 26px;
-    }
-
-
-    .assessment-value {
-      margin-bottom: 4px;
-
-      color: #0877b9;
-
-      font-size: 36px;
-      font-weight: 700;
-    }
-
-
-    .assessment-title {
-      color: #13294b;
-
-      font-size: 15px;
-      font-weight: 600;
-    }
-
-
-    .lecture-list {
-      display: flex;
-
-      flex-direction: column;
-
-      gap: 14px;
-
-      margin-top: 28px;
-    }
-
-
-    .lecture {
-      display: grid;
-
-      grid-template-columns:
-        58px 1fr auto;
-
-      align-items: center;
-
-      gap: 20px;
-
-      padding: 24px;
-
-      background: white;
-
-      border: 1px solid #e1e6ec;
-
-      border-radius: 14px;
-
-      transition:
-        transform 0.2s ease,
-        box-shadow 0.2s ease,
-        border-color 0.2s ease;
-    }
-
-
-    .lecture:hover {
-      transform: translateY(-2px);
-
-      border-color: #c8d7e4;
-
-      box-shadow:
-        0 10px 26px
-        rgba(20, 50, 80, 0.08);
-    }
-
-
-    .lecture-number {
-      width: 48px;
-      height: 48px;
-
-      display: flex;
-
-      align-items: center;
-      justify-content: center;
-
-      border-radius: 10px;
-
-      background: #edf5fa;
-
-      color: #0877b9;
-
-      font-weight: 700;
-    }
-
-
-    .lecture h3 {
-      margin: 0 0 6px;
-
-      color: #13294b;
-
-      font-size: 18px;
-      line-height: 1.4;
-    }
-
-
-    .lecture p {
-      margin: 0;
-
-      color: #748091;
-
-      font-size: 14px;
-      line-height: 1.6;
-    }
-
-
-    .slide-button {
-      display: inline-block;
-
-      padding: 10px 15px;
-
-      border-radius: 8px;
-
-      background: #edf5fa;
-
-      color: #0877b9;
-
-      font-size: 13px;
-      font-weight: 600;
-
-      text-decoration: none;
-
-      white-space: nowrap;
-
-      transition:
-        background 0.2s ease,
-        color 0.2s ease;
-    }
-
-
-    .slide-button:hover {
-      background: #0877b9;
-      color: white;
-    }
-
-
-    .presentation-label {
-      display: inline-block;
-
-      padding: 9px 14px;
-
-      border-radius: 8px;
-
-      background: #f3f4f6;
-
-      color: #7a8492;
-
-      font-size: 13px;
-      font-weight: 600;
-
-      white-space: nowrap;
-    }
-
-
-    .course-note {
-      padding: 20px 22px;
-
-      background: #eef3f7;
-
-      border-left: 4px solid #0877b9;
-
-      border-radius: 8px;
-
-      color: #657182;
-
-      font-size: 14px;
-      line-height: 1.7;
-    }
-
-
-    @media (max-width: 760px) {
-
-      .course-hero h1 {
-        font-size: 40px;
-      }
-
-
-      .course-subtitle {
-        font-size: 17px;
-      }
-
-
-      .assessment-grid {
-        grid-template-columns: 1fr;
-      }
-
-
-      .lecture {
-        grid-template-columns:
-          50px 1fr;
-      }
-
-
-      .slide-button,
-      .presentation-label {
-        grid-column: 2;
-
-        width: fit-content;
-
-        margin-top: 4px;
-      }
-
-    }
-
-  </style>
-
 </head>
 
 
 <body>
 
+
+  <!-- NAVIGATION -->
 
   <header class="navbar">
 
@@ -375,11 +39,11 @@
 
       <nav>
 
-        <a href="index.html#courses">
+        <a href="#courses">
           Courses
         </a>
 
-        <a href="index.html#about">
+        <a href="#about">
           About
         </a>
 
@@ -391,35 +55,36 @@
 
 
 
-  <section class="course-hero">
+  <!-- HERO -->
 
-    <div class="course-hero-inner">
+  <section class="hero">
 
-      <a
-        href="index.html"
-        class="back-link"
-      >
-        ← Back to Courses
-      </a>
+    <div class="hero-content">
 
-
-      <p class="course-label">
-        Compulsory Module
+      <p class="hero-label">
+        MSc Climate Change, Management &amp; Finance
       </p>
 
 
       <h1>
-        Business Economics, Climate Change and the Environment
+        CCMF Guide
       </h1>
 
 
-      <p class="course-subtitle">
+      <p class="hero-description">
 
-        Explore how economic theory helps explain
-        markets, strategic behaviour, inequality,
-        consumer decisions and environmental problems.
+        An unofficial course guide for Imperial College London's
+        MSc Climate Change, Management &amp; Finance.
 
       </p>
+
+
+      <a
+        href="#courses"
+        class="primary-button"
+      >
+        Explore Courses
+      </a>
 
     </div>
 
@@ -427,483 +92,298 @@
 
 
 
-  <main class="course-container">
+  <main>
 
 
 
-    <section class="course-section">
+    <!-- COURSES -->
 
-      <h2>
-        Course Overview
-      </h2>
-
-
-      <p>
-
-        This module provides an introduction to economics
-        and its relevance to climate change and the environment.
-
-        It explores economic growth, strategic interaction,
-        consumer behaviour, institutions, inequality,
-        supply and demand, market failures
-        and environmental policy.
-
-      </p>
-
-    </section>
+    <section
+      class="courses-section"
+      id="courses"
+    >
 
 
+      <div class="section-heading">
 
-    <section class="course-section">
-
-      <h2>
-        Assessment
-      </h2>
-
-
-      <div class="assessment-grid">
+        <p class="section-label">
+          COMPULSORY MODULES
+        </p>
 
 
-        <div class="assessment-card">
-
-          <div class="assessment-value">
-            25%
-          </div>
-
-          <div class="assessment-title">
-            Group Coursework
-          </div>
-
-        </div>
+        <h2>
+          Explore the Courses
+        </h2>
 
 
-
-        <div class="assessment-card">
-
-          <div class="assessment-value">
-            5%
-          </div>
-
-          <div class="assessment-title">
-            Individual Participation
-          </div>
-
-        </div>
-
-
-
-        <div class="assessment-card">
-
-          <div class="assessment-value">
-            70%
-          </div>
-
-          <div class="assessment-title">
-            Exam
-          </div>
-
-        </div>
-
+        <p>
+          Course content, lecture materials and assessment information.
+        </p>
 
       </div>
 
-    </section>
+
+
+      <div class="course-grid">
 
 
 
-    <section class="course-section">
+        <!-- COURSE 01 -->
 
-      <h2>
-        Lecture Materials
-      </h2>
+        <div class="course-card coming-soon">
 
-
-      <p>
-
-        Browse the lecture topics below and open
-        the corresponding lecture slides.
-
-      </p>
-
-
-
-      <div class="lecture-list">
-
-
-
-        <div class="lecture">
-
-          <div class="lecture-number">
+          <div class="course-number">
             01
           </div>
 
 
-          <div>
-
-            <h3>
-              Growth, Transformation and Transition
-            </h3>
-
-            <p>
-              Economic growth, structural transformation
-              and transition in the context
-              of the climate crisis.
-            </p>
-
-          </div>
+          <h3>
+            Quantitative Methods
+          </h3>
 
 
-          <a
-            class="slide-button"
-            href="slides/becce/BECCE%20-%20Lecture%201%20(1).pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Slides →
-          </a>
+          <p>
+
+            Statistical methods and quantitative tools
+            for climate, finance and business analysis.
+
+          </p>
+
+
+          <span class="status">
+            Coming soon
+          </span>
 
         </div>
 
 
 
-        <div class="lecture">
+        <!-- COURSE 02 -->
 
-          <div class="lecture-number">
+        <a
+          href="business-economics-climate-change-environment.html"
+          class="course-card active-course"
+        >
+
+          <div class="course-number">
             02
           </div>
 
 
-          <div>
-
-            <h3>
-              Introduction to Game Theory
-            </h3>
-
-            <p>
-              Strategic interaction,
-              Nash equilibrium
-              and subgame perfect equilibrium.
-            </p>
-
-          </div>
+          <h3>
+            Business Economics, Climate Change and the Environment
+          </h3>
 
 
-          <a
-            class="slide-button"
-            href="slides/becce/BECCE%20-%20Lecture%202.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Slides →
-          </a>
+          <p>
 
-        </div>
+            Economics, strategic behaviour, institutions,
+            markets, inequality and environmental policy.
+
+          </p>
+
+
+          <span class="view-course">
+            View Course →
+          </span>
+
+        </a>
 
 
 
-        <div class="lecture">
+        <!-- COURSE 03 -->
 
-          <div class="lecture-number">
+        <div class="course-card coming-soon">
+
+          <div class="course-number">
             03
           </div>
 
 
-          <div>
-
-            <h3>
-              Game Theory and Auctions
-            </h3>
-
-            <p>
-              Auction formats,
-              strategic bidding
-              and economic applications
-              of game theory.
-            </p>
-
-          </div>
+          <h3>
+            Principles of Finance
+          </h3>
 
 
-          <a
-            class="slide-button"
-            href="slides/becce/BECCE%20-%20Lecture%203%20-%20Stream%201.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Slides →
-          </a>
+          <p>
+
+            Core financial concepts
+            and their application to investment
+            and corporate decision-making.
+
+          </p>
+
+
+          <span class="status">
+            Coming soon
+          </span>
 
         </div>
 
 
 
-        <div class="lecture">
+        <!-- COURSE 04 -->
 
-          <div class="lecture-number">
+        <div class="course-card coming-soon">
+
+          <div class="course-number">
             04
           </div>
 
 
-          <div>
-
-            <h3>
-              Game Theory and the Environment
-            </h3>
-
-            <p>
-              Environmental applications of auctions,
-              emissions trading,
-              fairness and efficiency.
-            </p>
-
-          </div>
+          <h3>
+            Carbon Accounting &amp; Reporting
+          </h3>
 
 
-          <a
-            class="slide-button"
-            href="slides/becce/BECCE%20-%20Lecture%204.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Slides →
-          </a>
+          <p>
+
+            Carbon measurement,
+            emissions accounting
+            and corporate climate reporting.
+
+          </p>
+
+
+          <span class="status">
+            Coming soon
+          </span>
 
         </div>
 
 
 
-        <div class="lecture">
+        <!-- COURSE 05 -->
 
-          <div class="lecture-number">
+        <a
+          href="science-of-climate-change.html"
+          class="course-card active-course"
+        >
+
+          <div class="course-number">
             05
           </div>
 
 
-          <div>
-
-            <h3>
-              Academic Papers Explained
-            </h3>
-
-            <p>
-              Student presentations analysing
-              selected academic papers,
-              their methods, findings
-              and limitations.
-            </p>
-
-          </div>
+          <h3>
+            The Science of Climate Change
+          </h3>
 
 
-          <span class="presentation-label">
-            Student Presentations
+          <p>
+
+            Climate science,
+            radiative forcing,
+            climate feedbacks,
+            the carbon cycle,
+            climate modelling
+            and future projections.
+
+          </p>
+
+
+          <span class="view-course">
+            View Course →
           </span>
 
-        </div>
+        </a>
 
 
 
-        <div class="lecture">
+        <!-- COURSE 06 -->
 
-          <div class="lecture-number">
+        <div class="course-card coming-soon">
+
+          <div class="course-number">
             06
           </div>
 
 
-          <div>
-
-            <h3>
-              Academic Papers Explained
-            </h3>
-
-            <p>
-              Student presentations
-              and discussion of selected
-              economics and climate research.
-            </p>
-
-          </div>
+          <h3>
+            Impacts and Adaptation to Climate Change
+          </h3>
 
 
-          <span class="presentation-label">
-            Student Presentations
+          <p>
+
+            Climate impacts,
+            physical risks,
+            vulnerability
+            and adaptation strategies.
+
+          </p>
+
+
+          <span class="status">
+            Coming soon
           </span>
 
         </div>
 
 
 
-        <div class="lecture">
-
-          <div class="lecture-number">
-            07
-          </div>
-
-
-          <div>
-
-            <h3>
-              Consumer Preferences
-            </h3>
-
-            <p>
-              Consumer preferences,
-              household budget constraints
-              and constrained decision-making.
-            </p>
-
-          </div>
-
-
-          <a
-            class="slide-button"
-            href="slides/becce/BECCE%20-%20Lecture%207.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Slides →
-          </a>
-
-        </div>
-
-
-
-        <div class="lecture">
-
-          <div class="lecture-number">
-            08
-          </div>
-
-
-          <div>
-
-            <h3>
-              Institutions, Power and Inequality
-            </h3>
-
-            <p>
-              Measuring inequality,
-              institutions as rules of the game
-              and the relationship between
-              institutions and economic outcomes.
-            </p>
-
-          </div>
-
-
-          <a
-            class="slide-button"
-            href="slides/becce/BECCE%20-%20Lecture%208.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Slides →
-          </a>
-
-        </div>
-
-
-
-        <div class="lecture">
-
-          <div class="lecture-number">
-            09
-          </div>
-
-
-          <div>
-
-            <h3>
-              Supply and Demand
-            </h3>
-
-            <p>
-              Firm optimisation,
-              consumer and producer surplus,
-              welfare
-              and competitive markets.
-            </p>
-
-          </div>
-
-
-          <a
-            class="slide-button"
-            href="slides/becce/BECCE%20-%20Lecture%209.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Slides →
-          </a>
-
-        </div>
-
-
-
-        <div class="lecture">
-
-          <div class="lecture-number">
-            10
-          </div>
-
-
-          <div>
-
-            <h3>
-              Market Successes and Failures
-            </h3>
-
-            <p>
-              Externalities,
-              price signals,
-              policy intervention
-              and cap-and-trade regulation.
-            </p>
-
-          </div>
-
-
-          <a
-            class="slide-button"
-            href="slides/becce/BECCE%20-%20Lecture%2010.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Slides →
-          </a>
-
-        </div>
-
-
-
       </div>
 
     </section>
 
 
 
-    <section class="course-section">
+    <!-- ABOUT -->
 
-      <div class="course-note">
+    <section
+      class="about-section"
+      id="about"
+    >
 
-        CCMF Guide is an unofficial student-organised resource.
+      <div>
 
-        Course content, assessment structures
-        and teaching materials may change
-        between academic years.
+        <p class="section-label">
+          ABOUT
+        </p>
 
-        Students should refer to official
-        Imperial College London materials
-        for current programme requirements.
+
+        <h2>
+          About CCMF Guide
+        </h2>
+
+
+        <p>
+
+          CCMF Guide is an unofficial student-organised resource
+          designed to make course content and learning materials
+          easier to navigate.
+
+        </p>
+
+
+        <p>
+
+          The guide currently focuses on selected compulsory modules
+          from the MSc Climate Change, Management &amp; Finance programme.
+
+        </p>
+
+
+        <p>
+
+          Course structures, assessments and teaching materials may
+          change between academic years. Students should always refer
+          to official Imperial College London information for current
+          programme requirements.
+
+        </p>
 
       </div>
 
     </section>
+
 
 
   </main>
 
 
+
+  <!-- FOOTER -->
 
   <footer>
 
