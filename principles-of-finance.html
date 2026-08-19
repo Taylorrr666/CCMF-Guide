@@ -1,0 +1,1706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    Principles of Finance | CCMF Guide
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+
+  <style>
+
+    /* =========================
+       HERO
+    ========================== */
+
+    .course-hero {
+      background: linear-gradient(
+        120deg,
+        #002147,
+        #003e74 60%,
+        #0877b9
+      );
+
+      color: white;
+      padding: 80px 28px;
+    }
+
+
+    .course-hero-inner {
+      max-width: 1050px;
+      margin: 0 auto;
+    }
+
+
+    .back-link {
+      display: inline-block;
+
+      margin-bottom: 28px;
+
+      color: #c9ddec;
+
+      font-size: 14px;
+
+      text-decoration: none;
+    }
+
+
+    .back-link:hover {
+      color: white;
+    }
+
+
+    .course-label {
+      margin: 0 0 12px;
+
+      color: #9dd4f2;
+
+      font-size: 12px;
+      font-weight: 700;
+
+      letter-spacing: 1.8px;
+
+      text-transform: uppercase;
+    }
+
+
+    .course-hero h1 {
+      margin: 0 0 22px;
+
+      max-width: 900px;
+
+      font-size: 52px;
+
+      line-height: 1.08;
+
+      letter-spacing: -1.5px;
+    }
+
+
+    .course-subtitle {
+      max-width: 830px;
+
+      margin: 0;
+
+      color: #dbe8f2;
+
+      font-size: 19px;
+
+      line-height: 1.7;
+    }
+
+
+
+    /* =========================
+       MAIN
+    ========================== */
+
+    .course-container {
+      max-width: 1050px;
+
+      margin: 0 auto;
+
+      padding: 70px 28px;
+    }
+
+
+    .course-section {
+      margin-bottom: 70px;
+    }
+
+
+    .course-section h2 {
+      margin: 0 0 18px;
+
+      color: #13294b;
+
+      font-size: 32px;
+
+      letter-spacing: -0.5px;
+    }
+
+
+    .course-section > p {
+      max-width: 900px;
+
+      margin: 0;
+
+      color: #657182;
+
+      font-size: 17px;
+
+      line-height: 1.8;
+    }
+
+
+
+    /* =========================
+       ASSESSMENT
+    ========================== */
+
+    .assessment-grid {
+      display: grid;
+
+      grid-template-columns: repeat(2, 1fr);
+
+      gap: 16px;
+
+      margin-top: 26px;
+    }
+
+
+    .assessment-card {
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
+
+      padding: 28px;
+    }
+
+
+    .assessment-value {
+      margin-bottom: 4px;
+
+      color: #0877b9;
+
+      font-size: 38px;
+
+      font-weight: 700;
+    }
+
+
+    .assessment-title {
+      color: #13294b;
+
+      font-size: 16px;
+
+      font-weight: 600;
+    }
+
+
+    .assessment-card p {
+      margin: 10px 0 0;
+
+      color: #748091;
+
+      font-size: 14px;
+
+      line-height: 1.6;
+    }
+
+
+    .assessment-breakdown {
+      display: grid;
+
+      grid-template-columns: repeat(2, 1fr);
+
+      gap: 14px;
+
+      margin-top: 18px;
+    }
+
+
+    .breakdown-card {
+      padding: 16px;
+
+      background: #f5f8fa;
+
+      border-radius: 10px;
+    }
+
+
+    .breakdown-value {
+      margin-bottom: 5px;
+
+      color: #0877b9;
+
+      font-size: 22px;
+
+      font-weight: 700;
+    }
+
+
+    .breakdown-title {
+      color: #13294b;
+
+      font-size: 13px;
+
+      font-weight: 600;
+    }
+
+
+    .assessment-note {
+      margin-top: 16px !important;
+
+      color: #7a8492 !important;
+
+      font-size: 14px !important;
+
+      line-height: 1.7 !important;
+    }
+
+
+
+    /* =========================
+       LEARNING OUTCOMES
+    ========================== */
+
+    .outcomes-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(2, 1fr);
+
+      gap: 16px;
+
+      margin-top: 28px;
+    }
+
+
+    .outcome-card {
+      padding: 24px;
+
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
+    }
+
+
+    .outcome-number {
+      margin-bottom: 10px;
+
+      color: #0877b9;
+
+      font-size: 13px;
+
+      font-weight: 700;
+
+      letter-spacing: 1px;
+    }
+
+
+    .outcome-card h3 {
+      margin: 0 0 8px;
+
+      color: #13294b;
+
+      font-size: 17px;
+    }
+
+
+    .outcome-card p {
+      margin: 0;
+
+      color: #748091;
+
+      font-size: 14px;
+
+      line-height: 1.7;
+    }
+
+
+
+    /* =========================
+       CORE TOPICS
+    ========================== */
+
+    .topic-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, 1fr);
+
+      gap: 16px;
+
+      margin-top: 28px;
+    }
+
+
+    .topic-card {
+      padding: 25px;
+
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
+    }
+
+
+    .topic-card h3 {
+      margin: 0 0 10px;
+
+      color: #13294b;
+
+      font-size: 17px;
+    }
+
+
+    .topic-card p {
+      margin: 0;
+
+      color: #748091;
+
+      font-size: 14px;
+
+      line-height: 1.7;
+    }
+
+
+
+    /* =========================
+       FINANCE WORKFLOW
+    ========================== */
+
+    .workflow {
+      display: grid;
+
+      grid-template-columns:
+        repeat(5, 1fr);
+
+      gap: 12px;
+
+      margin-top: 28px;
+    }
+
+
+    .workflow-step {
+      padding: 22px 16px;
+
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
+
+      text-align: center;
+    }
+
+
+    .workflow-number {
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      width: 30px;
+
+      height: 30px;
+
+      margin: 0 auto 12px;
+
+      background: #0877b9;
+
+      border-radius: 50%;
+
+      color: white;
+
+      font-size: 13px;
+
+      font-weight: 700;
+    }
+
+
+    .workflow-step h3 {
+      margin: 0 0 6px;
+
+      color: #13294b;
+
+      font-size: 15px;
+    }
+
+
+    .workflow-step p {
+      margin: 0;
+
+      color: #748091;
+
+      font-size: 12px;
+
+      line-height: 1.5;
+    }
+
+
+
+    /* =========================
+       LECTURES
+    ========================== */
+
+    .lecture-list {
+      display: flex;
+
+      flex-direction: column;
+
+      gap: 14px;
+
+      margin-top: 28px;
+    }
+
+
+    .lecture {
+      display: grid;
+
+      grid-template-columns:
+        58px 1fr auto;
+
+      align-items: center;
+
+      gap: 20px;
+
+      padding: 24px;
+
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
+
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+    }
+
+
+    .lecture:hover {
+      transform: translateY(-2px);
+
+      border-color: #c8d7e4;
+
+      box-shadow:
+        0 10px 26px
+        rgba(20, 50, 80, 0.08);
+    }
+
+
+    .lecture-number {
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      width: 48px;
+
+      height: 48px;
+
+      background: #edf5fa;
+
+      border-radius: 10px;
+
+      color: #0877b9;
+
+      font-weight: 700;
+    }
+
+
+    .lecture h3 {
+      margin: 0 0 6px;
+
+      color: #13294b;
+
+      font-size: 18px;
+
+      line-height: 1.4;
+    }
+
+
+    .lecture p {
+      margin: 0;
+
+      color: #748091;
+
+      font-size: 14px;
+
+      line-height: 1.6;
+    }
+
+
+    .slide-button {
+      display: inline-block;
+
+      padding: 10px 15px;
+
+      background: #edf5fa;
+
+      border-radius: 8px;
+
+      color: #0877b9;
+
+      font-size: 13px;
+
+      font-weight: 600;
+
+      text-decoration: none;
+
+      white-space: nowrap;
+
+      transition:
+        background 0.2s ease,
+        color 0.2s ease;
+    }
+
+
+    .slide-button:hover {
+      background: #0877b9;
+
+      color: white;
+    }
+
+
+
+    /* =========================
+       STUDENT NOTE
+    ========================== */
+
+    .student-note {
+      margin-top: 28px;
+
+      padding: 20px 22px;
+
+      background: #eef6fb;
+
+      border-left: 4px solid #0877b9;
+
+      border-radius: 8px;
+
+      color: #526274;
+
+      font-size: 14px;
+
+      line-height: 1.7;
+    }
+
+
+    .student-note strong {
+      color: #0877b9;
+    }
+
+
+
+    /* =========================
+       DISCLAIMER
+    ========================== */
+
+    .course-note {
+      padding: 20px 22px;
+
+      background: #eef3f7;
+
+      border-left: 4px solid #0877b9;
+
+      border-radius: 8px;
+
+      color: #657182;
+
+      font-size: 14px;
+
+      line-height: 1.7;
+    }
+
+
+
+    /* =========================
+       RESPONSIVE
+    ========================== */
+
+    @media (max-width: 900px) {
+
+      .topic-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+      .workflow {
+        grid-template-columns:
+          repeat(2, 1fr);
+      }
+
+    }
+
+
+    @media (max-width: 760px) {
+
+      .course-hero h1 {
+        font-size: 40px;
+      }
+
+
+      .course-subtitle {
+        font-size: 17px;
+      }
+
+
+      .assessment-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+      .assessment-breakdown {
+        grid-template-columns: 1fr;
+      }
+
+
+      .outcomes-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+      .lecture {
+        grid-template-columns:
+          50px 1fr;
+      }
+
+
+      .slide-button {
+        grid-column: 2;
+
+        width: fit-content;
+
+        margin-top: 4px;
+      }
+
+
+      .workflow {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+
+<body>
+
+
+
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+
+  <header class="navbar">
+
+    <div class="nav-container">
+
+      <a
+        href="index.html"
+        class="logo"
+      >
+        CCMF Guide
+      </a>
+
+
+      <nav>
+
+        <a href="index.html#courses">
+          Courses
+        </a>
+
+        <a href="index.html#about">
+          About
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- =========================
+       HERO
+  ========================== -->
+
+  <section class="course-hero">
+
+    <div class="course-hero-inner">
+
+      <a
+        href="index.html"
+        class="back-link"
+      >
+        ← Back to Courses
+      </a>
+
+
+      <p class="course-label">
+        Compulsory Module
+      </p>
+
+
+      <h1>
+        Principles of Finance
+      </h1>
+
+
+      <p class="course-subtitle">
+
+        Build the foundations of corporate finance
+        and investment decision-making,
+        covering valuation,
+        time value of money,
+        bonds and stocks,
+        risk and return,
+        portfolio theory,
+        CAPM
+        and capital structure.
+
+      </p>
+
+    </div>
+
+  </section>
+
+
+
+  <main class="course-container">
+
+
+
+    <!-- =========================
+         COURSE OVERVIEW
+    ========================== -->
+
+    <section class="course-section">
+
+      <h2>
+        Course Overview
+      </h2>
+
+
+      <p>
+
+        Principles of Finance provides
+        a foundation in financial theory
+        and introduces the main tools
+        used in corporate finance
+        and investment decision-making.
+
+        The module develops from
+        time value of money
+        and net present value
+        to bond and stock valuation,
+        capital budgeting,
+        portfolio theory,
+        risk and return,
+        the CAPM,
+        cost of capital
+        and capital structure.
+
+        The course also connects
+        traditional finance concepts
+        with climate-related applications,
+        including discount rates,
+        green bonds
+        and carbon-related risk.
+
+      </p>
+
+    </section>
+
+
+
+    <!-- =========================
+         ASSESSMENT
+    ========================== -->
+
+    <section class="course-section">
+
+      <h2>
+        Assessment
+      </h2>
+
+
+      <div class="assessment-grid">
+
+
+
+        <!-- COURSEWORK -->
+
+        <div class="assessment-card">
+
+          <div class="assessment-value">
+            30%
+          </div>
+
+
+          <div class="assessment-title">
+            Group Coursework
+          </div>
+
+
+          <p>
+            Two graded group assignments,
+            largely based on cases
+            and mainly quantitative
+            with some qualitative questions.
+          </p>
+
+
+          <div class="assessment-breakdown">
+
+
+            <div class="breakdown-card">
+
+              <div class="breakdown-value">
+                2
+              </div>
+
+
+              <div class="breakdown-title">
+                Group Assignments
+              </div>
+
+            </div>
+
+
+            <div class="breakdown-card">
+
+              <div class="breakdown-value">
+                Group
+              </div>
+
+
+              <div class="breakdown-title">
+                Same Group Grade
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+
+        <!-- EXAM -->
+
+        <div class="assessment-card">
+
+          <div class="assessment-value">
+            70%
+          </div>
+
+
+          <div class="assessment-title">
+            Final Exam
+          </div>
+
+
+          <p>
+            Individual final examination.
+            Questions are mainly quantitative
+            with some qualitative elements.
+          </p>
+
+        </div>
+
+
+      </div>
+
+
+      <p class="assessment-note">
+
+        The coursework contributes 30%
+        of the overall module mark
+        and consists of two graded group assignments.
+
+        The final examination contributes 70%.
+        Both coursework and exam questions
+        are primarily quantitative,
+        with some qualitative questions.
+
+      </p>
+
+    </section>
+
+
+
+    <!-- =========================
+         LEARNING OUTCOMES
+    ========================== -->
+
+    <section class="course-section">
+
+      <h2>
+        Learning Outcomes
+      </h2>
+
+
+      <p>
+
+        The module develops the ability
+        to apply financial theory
+        to investment decisions,
+        valuation,
+        risk
+        and corporate financing choices.
+
+      </p>
+
+
+      <div class="outcomes-grid">
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            01
+          </div>
+
+
+          <h3>
+            Value Firms &amp; Investments
+          </h3>
+
+
+          <p>
+            Apply valuation techniques
+            to compare firms,
+            projects
+            and investment opportunities.
+          </p>
+
+        </div>
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            02
+          </div>
+
+
+          <h3>
+            Evaluate Capital Structure
+          </h3>
+
+
+          <p>
+            Understand methods
+            of raising capital
+            and evaluate how firms
+            choose between debt and equity.
+          </p>
+
+        </div>
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            03
+          </div>
+
+
+          <h3>
+            Understand Cost of Capital
+          </h3>
+
+
+          <p>
+            Relate financial asset prices
+            and expected returns
+            to a firm's cost of capital.
+          </p>
+
+        </div>
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            04
+          </div>
+
+
+          <h3>
+            Measure Risk
+          </h3>
+
+
+          <p>
+            Measure financial risk
+            and understand its effect
+            on the value
+            of financial instruments.
+          </p>
+
+        </div>
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            05
+          </div>
+
+
+          <h3>
+            Assess Financial Decisions
+          </h3>
+
+
+          <p>
+            Evaluate how changes
+            in financial policies
+            can affect firm value.
+          </p>
+
+        </div>
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            06
+          </div>
+
+
+          <h3>
+            Apply Finance in Practice
+          </h3>
+
+
+          <p>
+            Use quantitative finance tools
+            to analyse real-world
+            corporate and investment decisions.
+          </p>
+
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         CORE TOPICS
+    ========================== -->
+
+    <section class="course-section">
+
+      <h2>
+        Core Topics
+      </h2>
+
+
+      <p>
+
+        The course progresses
+        from basic valuation principles
+        to more advanced questions
+        involving risk,
+        portfolios
+        and corporate financing.
+
+      </p>
+
+
+      <div class="topic-grid">
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Time Value of Money
+          </h3>
+
+
+          <p>
+            Discounting,
+            compounding,
+            annuities,
+            perpetuities
+            and the value of cash flows over time.
+          </p>
+
+        </div>
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            NPV &amp; Investment Decisions
+          </h3>
+
+
+          <p>
+            Net present value,
+            investment decision rules,
+            cost-benefit analysis
+            and capital budgeting.
+          </p>
+
+        </div>
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Bonds &amp; Stocks
+          </h3>
+
+
+          <p>
+            Bond pricing,
+            yields,
+            interest rates,
+            dividend valuation
+            and discounted cash flow valuation.
+          </p>
+
+        </div>
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Risk &amp; Return
+          </h3>
+
+
+          <p>
+            Expected return,
+            volatility,
+            diversification,
+            systematic risk
+            and beta.
+          </p>
+
+        </div>
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Portfolio Theory &amp; CAPM
+          </h3>
+
+
+          <p>
+            Portfolio choice,
+            market portfolios,
+            beta
+            and the Capital Asset Pricing Model.
+          </p>
+
+        </div>
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Capital Structure
+          </h3>
+
+
+          <p>
+            Cost of debt,
+            WACC,
+            Modigliani-Miller,
+            leverage
+            and corporate financing decisions.
+          </p>
+
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         FINANCE WORKFLOW
+    ========================== -->
+
+    <section class="course-section">
+
+      <h2>
+        Financial Decision-Making Framework
+      </h2>
+
+
+      <p>
+
+        A useful way to understand the course
+        is to think of finance
+        as a sequence from identifying cash flows
+        to assessing value,
+        risk
+        and financing decisions.
+
+      </p>
+
+
+      <div class="workflow">
+
+
+
+        <div class="workflow-step">
+
+          <div class="workflow-number">
+            1
+          </div>
+
+
+          <h3>
+            Cash Flows
+          </h3>
+
+
+          <p>
+            Identify relevant
+            future cash flows.
+          </p>
+
+        </div>
+
+
+
+        <div class="workflow-step">
+
+          <div class="workflow-number">
+            2
+          </div>
+
+
+          <h3>
+            Discount
+          </h3>
+
+
+          <p>
+            Apply the appropriate
+            discount rate.
+          </p>
+
+        </div>
+
+
+
+        <div class="workflow-step">
+
+          <div class="workflow-number">
+            3
+          </div>
+
+
+          <h3>
+            Value
+          </h3>
+
+
+          <p>
+            Calculate NPV
+            or asset value.
+          </p>
+
+        </div>
+
+
+
+        <div class="workflow-step">
+
+          <div class="workflow-number">
+            4
+          </div>
+
+
+          <h3>
+            Risk
+          </h3>
+
+
+          <p>
+            Evaluate risk,
+            return
+            and cost of capital.
+          </p>
+
+        </div>
+
+
+
+        <div class="workflow-step">
+
+          <div class="workflow-number">
+            5
+          </div>
+
+
+          <h3>
+            Decision
+          </h3>
+
+
+          <p>
+            Make investment
+            or financing decisions.
+          </p>
+
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         LECTURE MATERIALS
+    ========================== -->
+
+    <section class="course-section">
+
+      <h2>
+        Lecture Materials
+      </h2>
+
+
+      <p>
+
+        Browse the five weekly lecture sets below
+        and open the corresponding course slides.
+
+      </p>
+
+
+      <div class="lecture-list">
+
+
+
+        <!-- =========================
+             WEEK 01
+        ========================== -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            01
+          </div>
+
+
+          <div>
+
+            <h3>
+              Financial Decision-Making, Time Value of Money &amp; NPV
+            </h3>
+
+
+            <p>
+              Introduction to financial institutions
+              and decision-making,
+              time value of money,
+              the Net Present Value rule
+              and cost-benefit analysis.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/pof/PoF%20Week%201%202025%20v3(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- =========================
+             WEEK 02
+        ========================== -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            02
+          </div>
+
+
+          <div>
+
+            <h3>
+              Time Value of Money, Interest Rates &amp; Bonds
+            </h3>
+
+
+            <p>
+              Annuities,
+              perpetuities,
+              compounding,
+              interest rates,
+              discount rates,
+              bond pricing,
+              yields
+              and green bonds.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/pof/PoF%20Week%202%202025%20v4(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- =========================
+             WEEK 03
+        ========================== -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            03
+          </div>
+
+
+          <div>
+
+            <h3>
+              Investment Decisions, Capital Budgeting &amp; Stock Valuation
+            </h3>
+
+
+            <p>
+              Investment decision rules,
+              IRR,
+              relevant project cash flows,
+              free cash flow,
+              capital budgeting,
+              dividend discount models
+              and company valuation.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/pof/PoF%20Week%203%202025%20v3(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- =========================
+             WEEK 04
+        ========================== -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            04
+          </div>
+
+
+          <div>
+
+            <h3>
+              Risk, Portfolio Theory &amp; CAPM
+            </h3>
+
+
+            <p>
+              Risk and return,
+              diversification,
+              systematic risk,
+              beta,
+              portfolio expected return,
+              volatility,
+              CAPM
+              and estimating the cost of capital.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/pof/PoF%20Week%204%202025%20v2(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- =========================
+             WEEK 05
+        ========================== -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            05
+          </div>
+
+
+          <div>
+
+            <h3>
+              Cost of Capital, Capital Structure &amp; Market Efficiency
+            </h3>
+
+
+            <p>
+              Cost of debt,
+              WACC,
+              CAPM testing,
+              market efficiency,
+              multi-factor models,
+              capital structure,
+              Modigliani-Miller
+              and asset-liability management.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/pof/PoF%20Week%205%202025%20v5(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+      </div>
+
+
+      <div class="student-note">
+
+        <strong>Study note:</strong>
+        This module is highly quantitative.
+        The Week 1 slides emphasise that
+        working through practice problems
+        is important for learning the material,
+        and a review session is planned
+        before the final examination.
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         DISCLAIMER
+    ========================== -->
+
+    <section class="course-section">
+
+      <div class="course-note">
+
+        CCMF Guide is an unofficial student-organised resource.
+
+        Course content,
+        assessment structures
+        and teaching materials may change
+        between academic years.
+
+        Students should refer to official
+        Imperial College London materials
+        for current module requirements.
+
+      </div>
+
+    </section>
+
+
+
+  </main>
+
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer>
+
+    <p>
+      CCMF Guide · Imperial College London
+    </p>
+
+
+    <p class="disclaimer">
+      Unofficial student resource
+    </p>
+
+  </footer>
+
+
+</body>
+
+</html>
