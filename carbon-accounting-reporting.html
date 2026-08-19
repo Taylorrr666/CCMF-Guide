@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    Carbon Accounting & Reporting | CCMF Guide
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+
+  <style>
+
+    /* =========================
+       HERO
+    ========================== */
+
+    .course-hero {
+      background: linear-gradient(
+        120deg,
+        #002147,
+        #003e74 60%,
+        #0877b9
+      );
+
+      color: white;
+      padding: 80px 28px;
+    }
+
+
+    .course-hero-inner {
+      max-width: 1050px;
+      margin: 0 auto;
+    }
+
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 28px;
+
+      color: #c9ddec;
+      font-size: 14px;
+      text-decoration: none;
+    }
+
+
+    .back-link:hover {
+      color: white;
+    }
+
+
+    .course-label {
+      margin: 0 0 12px;
+
+      color: #9dd4f2;
+
+      font-size: 12px;
+      font-weight: 700;
+
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+    }
+
+
+    .course-hero h1 {
+      margin: 0 0 22px;
+
+      max-width: 900px;
+
+      font-size: 52px;
+      line-height: 1.08;
+
+      letter-spacing: -1.5px;
+    }
+
+
+    .course-subtitle {
+      max-width: 820px;
+
+      margin: 0;
+
+      color: #dbe8f2;
+
+      font-size: 19px;
+      line-height: 1.7;
+    }
+
+
+
+    /* =========================
+       MAIN
+    ========================== */
+
+    .course-container {
+      max-width: 1050px;
+
+      margin: 0 auto;
+
+      padding: 70px 28px;
+    }
+
+
+    .course-section {
+      margin-bottom: 70px;
+    }
+
+
+    .course-section h2 {
+      margin: 0 0 18px;
+
+      color: #13294b;
+
+      font-size: 32px;
+
+      letter-spacing: -0.5px;
+    }
+
+
+    .course-section > p {
+      max-width: 900px;
+
+      margin: 0;
+
+      color: #657182;
+
+      font-size: 17px;
+      line-height: 1.8;
+    }
+
+
+
+    /* =========================
+       ASSESSMENT
+    ========================== */
+
+    .assessment-grid {
+      display: grid;
+
+      grid-template-columns: repeat(3, 1fr);
+
+      gap: 16px;
+
+      margin-top: 26px;
+    }
+
+
+    .assessment-card {
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
+
+      padding: 26px;
+    }
+
+
+    .assessment-value {
+      margin-bottom: 4px;
+
+      color: #0877b9;
+
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+
+    .assessment-title {
+      color: #13294b;
+
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+
+    .assessment-card p {
+      margin: 10px 0 0;
+
+      color: #748091;
+
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+
+
+    /* =========================
+       LEARNING OUTCOMES
+    ========================== */
+
+    .outcomes-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(2, 1fr);
+
+      gap: 16px;
+
+      margin-top: 28px;
+    }
+
+
+    .outcome-card {
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
+
+      padding: 24px;
+    }
+
+
+    .outcome-number {
+      margin-bottom: 10px;
+
+      color: #0877b9;
+
+      font-size: 13px;
+
+      font-weight: 700;
+
+      letter-spacing: 1px;
+    }
+
+
+    .outcome-card h3 {
+      margin: 0 0 8px;
+
+      color: #13294b;
+
+      font-size: 17px;
+    }
+
+
+    .outcome-card p {
+      margin: 0;
+
+      color: #748091;
+
+      font-size: 14px;
+
+      line-height: 1.7;
+    }
+
+
+
+    /* =========================
+       CORE TOPICS
+    ========================== */
+
+    .topic-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, 1fr);
+
+      gap: 16px;
+
+      margin-top: 28px;
+    }
+
+
+    .topic-card {
+      padding: 25px;
+
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
+    }
+
+
+    .topic-card h3 {
+      margin: 0 0 10px;
+
+      color: #13294b;
+
+      font-size: 17px;
+    }
+
+
+    .topic-card p {
+      margin: 0;
+
+      color: #748091;
+
+      font-size: 14px;
+
+      line-height: 1.7;
+    }
+
+
+
+    /* =========================
+       WORKFLOW
+    ========================== */
+
+    .workflow {
+      display: grid;
+
+      grid-template-columns:
+        repeat(5, 1fr);
+
+      gap: 12px;
+
+      margin-top: 28px;
+    }
+
+
+    .workflow-step {
+      padding: 22px 16px;
+
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
+
+      text-align: center;
+    }
+
+
+    .workflow-number {
+      width: 30px;
+      height: 30px;
+
+      margin: 0 auto 12px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 50%;
+
+      background: #0877b9;
+
+      color: white;
+
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+
+    .workflow-step h3 {
+      margin: 0 0 6px;
+
+      color: #13294b;
+
+      font-size: 15px;
+    }
+
+
+    .workflow-step p {
+      margin: 0;
+
+      color: #748091;
+
+      font-size: 12px;
+
+      line-height: 1.5;
+    }
+
+
+
+    /* =========================
+       LECTURES
+    ========================== */
+
+    .lecture-list {
+      display: flex;
+
+      flex-direction: column;
+
+      gap: 14px;
+
+      margin-top: 28px;
+    }
+
+
+    .lecture {
+      display: grid;
+
+      grid-template-columns:
+        58px 1fr auto;
+
+      align-items: center;
+
+      gap: 20px;
+
+      padding: 24px;
+
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
+
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+    }
+
+
+    .lecture:hover {
+      transform: translateY(-2px);
+
+      border-color: #c8d7e4;
+
+      box-shadow:
+        0 10px 26px
+        rgba(20, 50, 80, 0.08);
+    }
+
+
+    .lecture-number {
+      width: 48px;
+      height: 48px;
+
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 10px;
+
+      background: #edf5fa;
+
+      color: #0877b9;
+
+      font-weight: 700;
+    }
+
+
+    .lecture h3 {
+      margin: 0 0 6px;
+
+      color: #13294b;
+
+      font-size: 18px;
+      line-height: 1.4;
+    }
+
+
+    .lecture p {
+      margin: 0;
+
+      color: #748091;
+
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+
+    .slide-button {
+      display: inline-block;
+
+      padding: 10px 15px;
+
+      border-radius: 8px;
+
+      background: #edf5fa;
+
+      color: #0877b9;
+
+      font-size: 13px;
+      font-weight: 600;
+
+      text-decoration: none;
+
+      white-space: nowrap;
+
+      transition:
+        background 0.2s ease,
+        color 0.2s ease;
+    }
+
+
+    .slide-button:hover {
+      background: #0877b9;
+      color: white;
+    }
+
+
+
+    /* =========================
+       COURSE NOTE
+    ========================== */
+
+    .course-note {
+      padding: 20px 22px;
+
+      background: #eef3f7;
+
+      border-left: 4px solid #0877b9;
+
+      border-radius: 8px;
+
+      color: #657182;
+
+      font-size: 14px;
+
+      line-height: 1.7;
+    }
+
+
+
+    /* =========================
+       RESPONSIVE
+    ========================== */
+
+    @media (max-width: 900px) {
+
+      .topic-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+      .workflow {
+        grid-template-columns:
+          repeat(2, 1fr);
+      }
+
+    }
+
+
+    @media (max-width: 760px) {
+
+      .course-hero h1 {
+        font-size: 40px;
+      }
+
+
+      .course-subtitle {
+        font-size: 17px;
+      }
+
+
+      .assessment-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+      .outcomes-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+      .lecture {
+        grid-template-columns:
+          50px 1fr;
+      }
+
+
+      .slide-button {
+        grid-column: 2;
+
+        width: fit-content;
+
+        margin-top: 4px;
+      }
+
+
+      .workflow {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+
+<body>
+
+
+
+  <!-- NAVIGATION -->
+
+  <header class="navbar">
+
+    <div class="nav-container">
+
+      <a
+        href="index.html"
+        class="logo"
+      >
+        CCMF Guide
+      </a>
+
+
+      <nav>
+
+        <a href="index.html#courses">
+          Courses
+        </a>
+
+        <a href="index.html#about">
+          About
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- HERO -->
+
+  <section class="course-hero">
+
+    <div class="course-hero-inner">
+
+      <a
+        href="index.html"
+        class="back-link"
+      >
+        ← Back to Courses
+      </a>
+
+
+      <p class="course-label">
+        Compulsory Module
+      </p>
+
+
+      <h1>
+        Carbon Accounting &amp; Reporting
+      </h1>
+
+
+      <p class="course-subtitle">
+
+        Explore how organisations measure,
+        report and manage greenhouse gas emissions,
+        from Scope 1, 2 and 3 accounting
+        to science-based targets,
+        net zero
+        and carbon credits.
+
+      </p>
+
+    </div>
+
+  </section>
+
+
+
+  <main class="course-container">
+
+
+
+    <!-- COURSE OVERVIEW -->
+
+    <section class="course-section">
+
+      <h2>
+        Course Overview
+      </h2>
+
+
+      <p>
+
+        Carbon Accounting &amp; Reporting introduces
+        the principles and practice of measuring,
+        interpreting and reporting organisational
+        greenhouse gas emissions.
+
+        The module covers the GHG Protocol,
+        organisational carbon accounting,
+        Scope 1, Scope 2 and Scope 3 emissions,
+        the value chain,
+        science-based targets,
+        net zero,
+        carbon credits
+        and wider sustainability reporting.
+
+        It also develops the ability
+        to critically evaluate corporate carbon strategies
+        and identify areas for improvement.
+
+      </p>
+
+    </section>
+
+
+
+    <!-- ASSESSMENT -->
+
+    <section class="course-section">
+
+      <h2>
+        Assessment
+      </h2>
+
+
+      <div class="assessment-grid">
+
+
+        <div class="assessment-card">
+
+          <div class="assessment-value">
+            54%
+          </div>
+
+
+          <div class="assessment-title">
+            Group Coursework
+          </div>
+
+
+          <p>
+            Group report analysing
+            corporate carbon accounting
+            and decarbonisation strategy.
+          </p>
+
+        </div>
+
+
+
+        <div class="assessment-card">
+
+          <div class="assessment-value">
+            36%
+          </div>
+
+
+          <div class="assessment-title">
+            Group Presentation
+          </div>
+
+
+          <p>
+            Team presentation
+            communicating the main findings
+            and recommendations.
+          </p>
+
+        </div>
+
+
+
+        <div class="assessment-card">
+
+          <div class="assessment-value">
+            10%
+          </div>
+
+
+          <div class="assessment-title">
+            Individual Participation
+          </div>
+
+
+          <p>
+            Individual participation
+            throughout the module.
+          </p>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- LEARNING OUTCOMES -->
+
+    <section class="course-section">
+
+      <h2>
+        Learning Outcomes
+      </h2>
+
+
+      <p>
+
+        By the end of the module,
+        students should be able to understand
+        both the technical construction of carbon accounts
+        and the strategic interpretation
+        of corporate climate disclosures.
+
+      </p>
+
+
+      <div class="outcomes-grid">
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            01
+          </div>
+
+
+          <h3>
+            Understand Carbon Reporting
+          </h3>
+
+
+          <p>
+            Explain different forms of carbon reporting
+            and the greenhouse gases
+            included within carbon accounts.
+          </p>
+
+        </div>
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            02
+          </div>
+
+
+          <h3>
+            Build Carbon Accounts
+          </h3>
+
+
+          <p>
+            Construct an elementary
+            organisational carbon inventory
+            using the GHG Protocol.
+          </p>
+
+        </div>
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            03
+          </div>
+
+
+          <h3>
+            Interpret Scope 1, 2 &amp; 3
+          </h3>
+
+
+          <p>
+            Critically interpret
+            organisational emissions
+            across direct,
+            energy-related
+            and value-chain sources.
+          </p>
+
+        </div>
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            04
+          </div>
+
+
+          <h3>
+            Understand Reporting Frameworks
+          </h3>
+
+
+          <p>
+            Recognise important sustainability
+            reporting concepts,
+            including materiality
+            and reporting frameworks.
+          </p>
+
+        </div>
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            05
+          </div>
+
+
+          <h3>
+            Evaluate Carbon Strategy
+          </h3>
+
+
+          <p>
+            Critically assess
+            an organisation's carbon strategy
+            and develop recommendations
+            for improvement.
+          </p>
+
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- CORE TOPICS -->
+
+    <section class="course-section">
+
+      <h2>
+        Core Topics
+      </h2>
+
+
+      <p>
+
+        The module moves from the fundamentals
+        of carbon accounting
+        toward corporate target-setting,
+        decarbonisation strategy
+        and wider reporting.
+
+      </p>
+
+
+      <div class="topic-grid">
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            GHG Protocol
+          </h3>
+
+
+          <p>
+            Principles and boundaries
+            used to measure
+            organisational greenhouse gas emissions.
+          </p>
+
+        </div>
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Scope 1
+          </h3>
+
+
+          <p>
+            Direct emissions
+            from sources owned
+            or controlled
+            by an organisation.
+          </p>
+
+        </div>
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Scope 2
+          </h3>
+
+
+          <p>
+            Indirect emissions
+            associated with purchased electricity
+            and energy consumption.
+          </p>
+
+        </div>
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Scope 3
+          </h3>
+
+
+          <p>
+            Indirect upstream
+            and downstream emissions
+            across the corporate value chain.
+          </p>
+
+        </div>
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Science Based Targets
+          </h3>
+
+
+          <p>
+            Translate climate science
+            into corporate
+            greenhouse gas reduction targets.
+          </p>
+
+        </div>
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Net Zero &amp; Carbon Credits
+          </h3>
+
+
+          <p>
+            Understand residual emissions,
+            removals,
+            carbon credits
+            and corporate net-zero strategies.
+          </p>
+
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- CARBON ACCOUNTING WORKFLOW -->
+
+    <section class="course-section">
+
+      <h2>
+        Carbon Accounting Workflow
+      </h2>
+
+
+      <p>
+
+        A simplified organisational carbon accounting
+        process can be viewed as a sequence
+        from defining the boundary
+        to reporting and reducing emissions.
+
+      </p>
+
+
+      <div class="workflow">
+
+
+
+        <div class="workflow-step">
+
+          <div class="workflow-number">
+            1
+          </div>
+
+
+          <h3>
+            Boundary
+          </h3>
+
+
+          <p>
+            Define the organisation
+            and activities
+            included in the inventory.
+          </p>
+
+        </div>
+
+
+
+        <div class="workflow-step">
+
+          <div class="workflow-number">
+            2
+          </div>
+
+
+          <h3>
+            Activity Data
+          </h3>
+
+
+          <p>
+            Collect energy,
+            fuel,
+            travel
+            and value-chain data.
+          </p>
+
+        </div>
+
+
+
+        <div class="workflow-step">
+
+          <div class="workflow-number">
+            3
+          </div>
+
+
+          <h3>
+            Emission Factors
+          </h3>
+
+
+          <p>
+            Convert activity data
+            into greenhouse gas emissions.
+          </p>
+
+        </div>
+
+
+
+        <div class="workflow-step">
+
+          <div class="workflow-number">
+            4
+          </div>
+
+
+          <h3>
+            Scopes
+          </h3>
+
+
+          <p>
+            Classify emissions
+            across Scope 1,
+            Scope 2
+            and Scope 3.
+          </p>
+
+        </div>
+
+
+
+        <div class="workflow-step">
+
+          <div class="workflow-number">
+            5
+          </div>
+
+
+          <h3>
+            Strategy
+          </h3>
+
+
+          <p>
+            Set targets,
+            reduce emissions
+            and communicate performance.
+          </p>
+
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- LECTURE MATERIALS -->
+
+    <section class="course-section">
+
+      <h2>
+        Lecture Materials
+      </h2>
+
+
+      <p>
+
+        Browse the eight lecture sets below
+        and open the corresponding course slides.
+
+      </p>
+
+
+      <div class="lecture-list">
+
+
+
+        <!-- LECTURE 01 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            01
+          </div>
+
+
+          <div>
+
+            <h3>
+              Course Introduction &amp; The Big Picture
+            </h3>
+
+
+            <p>
+              Introduction to the module
+              and the wider sustainability context
+              surrounding carbon accounting
+              and corporate climate action.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/car/IB%20CA%202025_Lecture%201_Intro%20and%20Big%20Picture_handout%20(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- LECTURE 02 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            02
+          </div>
+
+
+          <div>
+
+            <h3>
+              Carbon, Sustainability and Climate Change
+            </h3>
+
+
+            <p>
+              Carbon and climate science,
+              the carbon cycle,
+              greenhouse gases
+              and the basic principles
+              of carbon accounting.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/car/IB%20CA%202025_Lecture%202_Intro%20Carbon%20and%20CA_handou.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- LECTURE 03 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            03
+          </div>
+
+
+          <div>
+
+            <h3>
+              Introduction to Organisational Carbon Accounting
+            </h3>
+
+
+            <p>
+              Organisational carbon footprints,
+              activity data,
+              DEFRA emission factors
+              and practical carbon-accounting calculations.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/car/IB%20CA%202025_Lecture%203_Intro%20to%20Org%20Carbon%20Acctg_CA%20Exercise%20(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- LECTURE 04 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            04
+          </div>
+
+
+          <div>
+
+            <h3>
+              Assignment Briefing
+            </h3>
+
+
+            <p>
+              Guidance for the group report
+              and presentation,
+              including corporate carbon-account analysis,
+              benchmarking
+              and decarbonisation strategy.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/car/IB%20CA%202025_Lecture%204_Assignment%20Briefing.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- LECTURE 05 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            05
+          </div>
+
+
+          <div>
+
+            <h3>
+              Scope 2, Scope 3 &amp; the Value Chain
+            </h3>
+
+
+            <p>
+              Electricity emissions,
+              renewable energy,
+              Scope 2 accounting,
+              Scope 3 categories,
+              value-chain emissions
+              and comparability.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/car/IB%20CA%202025_Lecture%205_Scope%202%20and%203_handout%20(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- LECTURE 06 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            06
+          </div>
+
+
+          <div>
+
+            <h3>
+              Science Based Targets
+            </h3>
+
+
+            <p>
+              Science-based target setting,
+              corporate emissions pathways,
+              Scope targets
+              and alignment with climate goals.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/car/IB%20CA%202025_Lecture%206_Science%20Based%20Targets_handout%20(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- LECTURE 07 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            07
+          </div>
+
+
+          <div>
+
+            <h3>
+              Net Zero
+            </h3>
+
+
+            <p>
+              Definitions of net zero,
+              emissions reduction pathways,
+              residual emissions,
+              carbon removals
+              and corporate net-zero strategies.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/car/IB%20CA%202025_Lecture%207_Net%20Zero_handout.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- LECTURE 08 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            08
+          </div>
+
+
+          <div>
+
+            <h3>
+              Carbon Credits &amp; ISO Net Zero Standard
+            </h3>
+
+
+            <p>
+              Carbon credits,
+              carbon offsetting,
+              market integrity,
+              removals
+              and the emerging ISO Net Zero Standard.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/car/IB%20CA%202025_Lecture%208_Carbon%20Credits%20and%20ISO%20Net%20Zero_handout.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- DISCLAIMER -->
+
+    <section class="course-section">
+
+      <div class="course-note">
+
+        CCMF Guide is an unofficial student-organised resource.
+
+        Course content,
+        assessment structures
+        and teaching materials may change
+        between academic years.
+
+        Students should refer to official
+        Imperial College London materials
+        for current module requirements.
+
+      </div>
+
+    </section>
+
+
+
+  </main>
+
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      CCMF Guide · Imperial College London
+    </p>
+
+
+    <p class="disclaimer">
+      Unofficial student resource
+    </p>
+
+  </footer>
+
+
+</body>
+
+</html>
