@@ -238,6 +238,8 @@
       color: #7a8492 !important;
 
       font-size: 14px !important;
+
+      line-height: 1.7 !important;
     }
 
 
@@ -512,6 +514,11 @@
     }
 
 
+
+    /* =========================
+       STUDENT NOTES
+    ========================== */
+
     .lecture-note {
       margin-top: 10px !important;
 
@@ -524,6 +531,24 @@
       line-height: 1.6;
     }
 
+
+    .lecture-note-secondary {
+      margin-top: 10px !important;
+
+      color: #697586 !important;
+
+      font-size: 13px !important;
+
+      font-weight: 500;
+
+      line-height: 1.6;
+    }
+
+
+
+    /* =========================
+       BUTTONS
+    ========================== */
 
     .slide-button {
       display: inline-block;
@@ -552,6 +577,24 @@
     .slide-button:hover {
       background: #0877b9;
       color: white;
+    }
+
+
+    .presentation-label {
+      display: inline-block;
+
+      padding: 9px 14px;
+
+      border-radius: 8px;
+
+      background: #f3f4f6;
+
+      color: #7a8492;
+
+      font-size: 13px;
+      font-weight: 600;
+
+      white-space: nowrap;
     }
 
 
@@ -630,7 +673,8 @@
       }
 
 
-      .slide-button {
+      .slide-button,
+      .presentation-label {
         grid-column: 2;
 
         width: fit-content;
@@ -655,7 +699,9 @@
 
 
 
-  <!-- NAVIGATION -->
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
 
   <header class="navbar">
 
@@ -687,7 +733,9 @@
 
 
 
-  <!-- HERO -->
+  <!-- =========================
+       HERO
+  ========================== -->
 
   <section class="course-hero">
 
@@ -731,7 +779,9 @@
 
 
 
-    <!-- COURSE OVERVIEW -->
+    <!-- =========================
+         COURSE OVERVIEW
+    ========================== -->
 
     <section class="course-section">
 
@@ -768,7 +818,9 @@
 
 
 
-    <!-- ASSESSMENT -->
+    <!-- =========================
+         ASSESSMENT
+    ========================== -->
 
     <section class="course-section">
 
@@ -778,6 +830,7 @@
 
 
       <div class="assessment-grid">
+
 
 
         <!-- COURSEWORK -->
@@ -810,6 +863,7 @@
                 35%
               </div>
 
+
               <div class="breakdown-title">
                 Presentation
               </div>
@@ -817,11 +871,13 @@
             </div>
 
 
+
             <div class="breakdown-card">
 
               <div class="breakdown-value">
                 65%
               </div>
+
 
               <div class="breakdown-title">
                 Group Report
@@ -854,38 +910,6 @@
             Two-hour written examination.
           </p>
 
-
-          <div class="assessment-breakdown">
-
-
-            <div class="breakdown-card">
-
-              <div class="breakdown-value">
-                5
-              </div>
-
-              <div class="breakdown-title">
-                Questions Available
-              </div>
-
-            </div>
-
-
-            <div class="breakdown-card">
-
-              <div class="breakdown-value">
-                3
-              </div>
-
-              <div class="breakdown-title">
-                Questions to Answer
-              </div>
-
-            </div>
-
-
-          </div>
-
         </div>
 
 
@@ -900,8 +924,7 @@
         and the group report for 65%.
 
         The examination contributes 70%
-        and requires students to answer
-        three questions from a choice of five.
+        of the overall module mark.
 
       </p>
 
@@ -909,7 +932,9 @@
 
 
 
-    <!-- LEARNING OUTCOMES -->
+    <!-- =========================
+         LEARNING OUTCOMES
+    ========================== -->
 
     <section class="course-section">
 
@@ -1076,7 +1101,9 @@
 
 
 
-    <!-- CORE CONCEPTS -->
+    <!-- =========================
+         CORE CONCEPTS
+    ========================== -->
 
     <section class="course-section">
 
@@ -1214,7 +1241,9 @@
 
 
 
-    <!-- RISK WORKFLOW -->
+    <!-- =========================
+         RISK FRAMEWORK
+    ========================== -->
 
     <section class="course-section">
 
@@ -1350,7 +1379,9 @@
 
 
 
-    <!-- LECTURE MATERIALS -->
+    <!-- =========================
+         LECTURE MATERIALS
+    ========================== -->
 
     <section class="course-section">
 
@@ -1361,7 +1392,7 @@
 
       <p>
 
-        Browse the ten lecture sets below
+        Browse the lecture materials below
         and open the corresponding course slides.
 
       </p>
@@ -1371,7 +1402,9 @@
 
 
 
-        <!-- 01 -->
+        <!-- =========================
+             LECTURE 01
+        ========================== -->
 
         <div class="lecture">
 
@@ -1396,23 +1429,29 @@
               and the structure of the module.
             </p>
 
+
+            <p class="lecture-note-secondary">
+              Student note: The Lecture 1 PDF is very large
+              and takes a long time to load.
+              I also personally found this lecture less important
+              for exam revision than the later lectures,
+              so the PDF has not been included here.
+            </p>
+
           </div>
 
 
-          <a
-            class="slide-button"
-            href="slides/ia/1_Introduction%20to%20impacts%20and%20adaptation.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Slides →
-          </a>
+          <span class="presentation-label">
+            PDF not included
+          </span>
 
         </div>
 
 
 
-        <!-- 02 -->
+        <!-- =========================
+             LECTURE 02
+        ========================== -->
 
         <div class="lecture">
 
@@ -1452,7 +1491,9 @@
 
 
 
-        <!-- 03 -->
+        <!-- =========================
+             LECTURE 03
+        ========================== -->
 
         <div class="lecture">
 
@@ -1493,7 +1534,9 @@
 
 
 
-        <!-- 04 -->
+        <!-- =========================
+             LECTURE 04
+        ========================== -->
 
         <div class="lecture">
 
@@ -1533,7 +1576,9 @@
 
 
 
-        <!-- 05 -->
+        <!-- =========================
+             LECTURE 05
+        ========================== -->
 
         <div class="lecture">
 
@@ -1573,7 +1618,9 @@
 
 
 
-        <!-- 06 -->
+        <!-- =========================
+             LECTURE 06
+        ========================== -->
 
         <div class="lecture">
 
@@ -1612,7 +1659,9 @@
 
 
 
-        <!-- 07 -->
+        <!-- =========================
+             LECTURE 07
+        ========================== -->
 
         <div class="lecture">
 
@@ -1654,7 +1703,9 @@
 
 
 
-        <!-- 08 -->
+        <!-- =========================
+             LECTURE 08
+        ========================== -->
 
         <div class="lecture">
 
@@ -1694,7 +1745,9 @@
 
 
 
-        <!-- 09 -->
+        <!-- =========================
+             LECTURE 09
+        ========================== -->
 
         <div class="lecture">
 
@@ -1734,7 +1787,9 @@
 
 
 
-        <!-- 10 -->
+        <!-- =========================
+             LECTURE 10
+        ========================== -->
 
         <div class="lecture">
 
@@ -1787,7 +1842,9 @@
 
 
 
-    <!-- DISCLAIMER -->
+    <!-- =========================
+         DISCLAIMER
+    ========================== -->
 
     <section class="course-section">
 
@@ -1814,7 +1871,9 @@
 
 
 
-  <!-- FOOTER -->
+  <!-- =========================
+       FOOTER
+  ========================== -->
 
   <footer>
 
