@@ -1,0 +1,1815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    Impacts and Adaptation to Climate Change | CCMF Guide
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+
+  <style>
+
+    /* =========================
+       HERO
+    ========================== */
+
+    .course-hero {
+      background: linear-gradient(
+        120deg,
+        #002147,
+        #003e74 60%,
+        #0877b9
+      );
+
+      color: white;
+      padding: 80px 28px;
+    }
+
+
+    .course-hero-inner {
+      max-width: 1050px;
+      margin: 0 auto;
+    }
+
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 28px;
+
+      color: #c9ddec;
+      font-size: 14px;
+      text-decoration: none;
+    }
+
+
+    .back-link:hover {
+      color: white;
+    }
+
+
+    .course-label {
+      margin: 0 0 12px;
+
+      color: #9dd4f2;
+
+      font-size: 12px;
+      font-weight: 700;
+
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+    }
+
+
+    .course-hero h1 {
+      margin: 0 0 22px;
+
+      max-width: 900px;
+
+      font-size: 50px;
+      line-height: 1.08;
+
+      letter-spacing: -1.5px;
+    }
+
+
+    .course-subtitle {
+      max-width: 830px;
+
+      margin: 0;
+
+      color: #dbe8f2;
+
+      font-size: 19px;
+      line-height: 1.7;
+    }
+
+
+
+    /* =========================
+       MAIN
+    ========================== */
+
+    .course-container {
+      max-width: 1050px;
+
+      margin: 0 auto;
+
+      padding: 70px 28px;
+    }
+
+
+    .course-section {
+      margin-bottom: 70px;
+    }
+
+
+    .course-section h2 {
+      margin: 0 0 18px;
+
+      color: #13294b;
+
+      font-size: 32px;
+
+      letter-spacing: -0.5px;
+    }
+
+
+    .course-section > p {
+      max-width: 900px;
+
+      margin: 0;
+
+      color: #657182;
+
+      font-size: 17px;
+      line-height: 1.8;
+    }
+
+
+
+    /* =========================
+       ASSESSMENT
+    ========================== */
+
+    .assessment-grid {
+      display: grid;
+
+      grid-template-columns: repeat(2, 1fr);
+
+      gap: 16px;
+
+      margin-top: 26px;
+    }
+
+
+    .assessment-card {
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
+
+      padding: 28px;
+    }
+
+
+    .assessment-value {
+      margin-bottom: 4px;
+
+      color: #0877b9;
+
+      font-size: 38px;
+      font-weight: 700;
+    }
+
+
+    .assessment-title {
+      color: #13294b;
+
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+
+    .assessment-card p {
+      margin: 10px 0 0;
+
+      color: #748091;
+
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+
+    .assessment-breakdown {
+      display: grid;
+
+      grid-template-columns: repeat(2, 1fr);
+
+      gap: 14px;
+
+      margin-top: 18px;
+    }
+
+
+    .breakdown-card {
+      background: #f5f8fa;
+
+      border-radius: 10px;
+
+      padding: 16px;
+    }
+
+
+    .breakdown-value {
+      color: #0877b9;
+
+      font-size: 22px;
+      font-weight: 700;
+
+      margin-bottom: 5px;
+    }
+
+
+    .breakdown-title {
+      color: #13294b;
+
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+
+    .assessment-note {
+      margin-top: 16px !important;
+
+      color: #7a8492 !important;
+
+      font-size: 14px !important;
+    }
+
+
+
+    /* =========================
+       LEARNING OUTCOMES
+    ========================== */
+
+    .outcomes-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(2, 1fr);
+
+      gap: 16px;
+
+      margin-top: 28px;
+    }
+
+
+    .outcome-card {
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
+
+      padding: 24px;
+    }
+
+
+    .outcome-number {
+      margin-bottom: 10px;
+
+      color: #0877b9;
+
+      font-size: 13px;
+      font-weight: 700;
+
+      letter-spacing: 1px;
+    }
+
+
+    .outcome-card h3 {
+      margin: 0 0 8px;
+
+      color: #13294b;
+
+      font-size: 17px;
+    }
+
+
+    .outcome-card p {
+      margin: 0;
+
+      color: #748091;
+
+      font-size: 14px;
+
+      line-height: 1.7;
+    }
+
+
+
+    /* =========================
+       CORE CONCEPTS
+    ========================== */
+
+    .topic-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, 1fr);
+
+      gap: 16px;
+
+      margin-top: 28px;
+    }
+
+
+    .topic-card {
+      padding: 25px;
+
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
+    }
+
+
+    .topic-card h3 {
+      margin: 0 0 10px;
+
+      color: #13294b;
+
+      font-size: 17px;
+    }
+
+
+    .topic-card p {
+      margin: 0;
+
+      color: #748091;
+
+      font-size: 14px;
+
+      line-height: 1.7;
+    }
+
+
+
+    /* =========================
+       RISK FRAMEWORK
+    ========================== */
+
+    .workflow {
+      display: grid;
+
+      grid-template-columns:
+        repeat(5, 1fr);
+
+      gap: 12px;
+
+      margin-top: 28px;
+    }
+
+
+    .workflow-step {
+      padding: 22px 16px;
+
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
+
+      text-align: center;
+    }
+
+
+    .workflow-number {
+      width: 30px;
+      height: 30px;
+
+      margin: 0 auto 12px;
+
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 50%;
+
+      background: #0877b9;
+
+      color: white;
+
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+
+    .workflow-step h3 {
+      margin: 0 0 6px;
+
+      color: #13294b;
+
+      font-size: 15px;
+    }
+
+
+    .workflow-step p {
+      margin: 0;
+
+      color: #748091;
+
+      font-size: 12px;
+
+      line-height: 1.5;
+    }
+
+
+
+    /* =========================
+       LECTURES
+    ========================== */
+
+    .lecture-list {
+      display: flex;
+
+      flex-direction: column;
+
+      gap: 14px;
+
+      margin-top: 28px;
+    }
+
+
+    .lecture {
+      display: grid;
+
+      grid-template-columns:
+        58px 1fr auto;
+
+      align-items: center;
+
+      gap: 20px;
+
+      padding: 24px;
+
+      background: white;
+
+      border: 1px solid #e1e6ec;
+
+      border-radius: 14px;
+
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+    }
+
+
+    .lecture:hover {
+      transform: translateY(-2px);
+
+      border-color: #c8d7e4;
+
+      box-shadow:
+        0 10px 26px
+        rgba(20, 50, 80, 0.08);
+    }
+
+
+    .lecture-number {
+      width: 48px;
+      height: 48px;
+
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 10px;
+
+      background: #edf5fa;
+
+      color: #0877b9;
+
+      font-weight: 700;
+    }
+
+
+    .lecture h3 {
+      margin: 0 0 6px;
+
+      color: #13294b;
+
+      font-size: 18px;
+      line-height: 1.4;
+    }
+
+
+    .lecture p {
+      margin: 0;
+
+      color: #748091;
+
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+
+    .slide-button {
+      display: inline-block;
+
+      padding: 10px 15px;
+
+      border-radius: 8px;
+
+      background: #edf5fa;
+
+      color: #0877b9;
+
+      font-size: 13px;
+      font-weight: 600;
+
+      text-decoration: none;
+
+      white-space: nowrap;
+
+      transition:
+        background 0.2s ease,
+        color 0.2s ease;
+    }
+
+
+    .slide-button:hover {
+      background: #0877b9;
+      color: white;
+    }
+
+
+
+    /* =========================
+       COURSE NOTE
+    ========================== */
+
+    .course-note {
+      padding: 20px 22px;
+
+      background: #eef3f7;
+
+      border-left: 4px solid #0877b9;
+
+      border-radius: 8px;
+
+      color: #657182;
+
+      font-size: 14px;
+
+      line-height: 1.7;
+    }
+
+
+
+    /* =========================
+       RESPONSIVE
+    ========================== */
+
+    @media (max-width: 900px) {
+
+      .topic-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+      .workflow {
+        grid-template-columns:
+          repeat(2, 1fr);
+      }
+
+    }
+
+
+    @media (max-width: 760px) {
+
+      .course-hero h1 {
+        font-size: 39px;
+      }
+
+
+      .course-subtitle {
+        font-size: 17px;
+      }
+
+
+      .assessment-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+      .assessment-breakdown {
+        grid-template-columns: 1fr;
+      }
+
+
+      .outcomes-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+      .lecture {
+        grid-template-columns:
+          50px 1fr;
+      }
+
+
+      .slide-button {
+        grid-column: 2;
+
+        width: fit-content;
+
+        margin-top: 4px;
+      }
+
+
+      .workflow {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+
+<body>
+
+
+
+  <!-- NAVIGATION -->
+
+  <header class="navbar">
+
+    <div class="nav-container">
+
+      <a
+        href="index.html"
+        class="logo"
+      >
+        CCMF Guide
+      </a>
+
+
+      <nav>
+
+        <a href="index.html#courses">
+          Courses
+        </a>
+
+        <a href="index.html#about">
+          About
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- HERO -->
+
+  <section class="course-hero">
+
+    <div class="course-hero-inner">
+
+      <a
+        href="index.html"
+        class="back-link"
+      >
+        ← Back to Courses
+      </a>
+
+
+      <p class="course-label">
+        Compulsory Module
+      </p>
+
+
+      <h1>
+        Impacts and Adaptation to Climate Change
+      </h1>
+
+
+      <p class="course-subtitle">
+
+        Explore how climate change creates impacts
+        across regions and societies,
+        how climate risks are assessed,
+        and how adaptation can reduce vulnerability
+        and build resilience.
+
+      </p>
+
+    </div>
+
+  </section>
+
+
+
+  <main class="course-container">
+
+
+
+    <!-- COURSE OVERVIEW -->
+
+    <section class="course-section">
+
+      <h2>
+        Course Overview
+      </h2>
+
+
+      <p>
+
+        Impacts and Adaptation to Climate Change examines
+        the realised and anticipated consequences
+        of climate change across regions,
+        sectors and communities.
+
+        The module explores how hazards,
+        exposure and vulnerability combine
+        to produce climate risk,
+        how uncertainty affects risk assessment,
+        and how adaptation strategies
+        can reduce climate impacts.
+
+        It also considers extreme-event attribution,
+        droughts,
+        wildfires,
+        human health,
+        loss and damage,
+        climate communication
+        and climate justice.
+
+      </p>
+
+    </section>
+
+
+
+    <!-- ASSESSMENT -->
+
+    <section class="course-section">
+
+      <h2>
+        Assessment
+      </h2>
+
+
+      <div class="assessment-grid">
+
+
+        <!-- COURSEWORK -->
+
+        <div class="assessment-card">
+
+          <div class="assessment-value">
+            30%
+          </div>
+
+
+          <div class="assessment-title">
+            Group Coursework
+          </div>
+
+
+          <p>
+            Group-based assessment consisting
+            of a presentation
+            and written report.
+          </p>
+
+
+          <div class="assessment-breakdown">
+
+
+            <div class="breakdown-card">
+
+              <div class="breakdown-value">
+                35%
+              </div>
+
+              <div class="breakdown-title">
+                Presentation
+              </div>
+
+            </div>
+
+
+            <div class="breakdown-card">
+
+              <div class="breakdown-value">
+                65%
+              </div>
+
+              <div class="breakdown-title">
+                Group Report
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+
+        <!-- EXAM -->
+
+        <div class="assessment-card">
+
+          <div class="assessment-value">
+            70%
+          </div>
+
+
+          <div class="assessment-title">
+            Examination
+          </div>
+
+
+          <p>
+            Two-hour written examination.
+          </p>
+
+
+          <div class="assessment-breakdown">
+
+
+            <div class="breakdown-card">
+
+              <div class="breakdown-value">
+                5
+              </div>
+
+              <div class="breakdown-title">
+                Questions Available
+              </div>
+
+            </div>
+
+
+            <div class="breakdown-card">
+
+              <div class="breakdown-value">
+                3
+              </div>
+
+              <div class="breakdown-title">
+                Questions to Answer
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+      <p class="assessment-note">
+
+        The coursework contributes 30% of the overall module mark.
+        Within the coursework,
+        the presentation accounts for 35%
+        and the group report for 65%.
+
+        The examination contributes 70%
+        and requires students to answer
+        three questions from a choice of five.
+
+      </p>
+
+    </section>
+
+
+
+    <!-- LEARNING OUTCOMES -->
+
+    <section class="course-section">
+
+      <h2>
+        Learning Outcomes
+      </h2>
+
+
+      <p>
+
+        The module develops an understanding
+        of climate impacts,
+        climate risk
+        and the challenges involved
+        in designing effective adaptation.
+
+      </p>
+
+
+      <div class="outcomes-grid">
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            01
+          </div>
+
+
+          <h3>
+            Understand Climate Impacts
+          </h3>
+
+
+          <p>
+            Identify realised
+            and anticipated climate impacts
+            across different regions
+            and sectors.
+          </p>
+
+        </div>
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            02
+          </div>
+
+
+          <h3>
+            Assess Climate Risk
+          </h3>
+
+
+          <p>
+            Understand how hazard,
+            exposure
+            and vulnerability interact
+            to create climate risk.
+          </p>
+
+        </div>
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            03
+          </div>
+
+
+          <h3>
+            Understand Adaptation
+          </h3>
+
+
+          <p>
+            Explain why adaptation
+            is central to managing
+            unavoidable climate impacts.
+          </p>
+
+        </div>
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            04
+          </div>
+
+
+          <h3>
+            Evaluate Adaptation Strategies
+          </h3>
+
+
+          <p>
+            Assess the effectiveness,
+            limitations
+            and potential unintended consequences
+            of adaptation actions.
+          </p>
+
+        </div>
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            05
+          </div>
+
+
+          <h3>
+            Understand Loss &amp; Damage
+          </h3>
+
+
+          <p>
+            Explain the role
+            of loss and damage
+            in climate policy
+            and international negotiations.
+          </p>
+
+        </div>
+
+
+
+        <div class="outcome-card">
+
+          <div class="outcome-number">
+            06
+          </div>
+
+
+          <h3>
+            Consider Climate Justice
+          </h3>
+
+
+          <p>
+            Examine how climate impacts,
+            responsibility
+            and adaptive capacity
+            are distributed unequally.
+          </p>
+
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- CORE CONCEPTS -->
+
+    <section class="course-section">
+
+      <h2>
+        Core Concepts
+      </h2>
+
+
+      <p>
+
+        Climate impacts depend not only
+        on physical hazards,
+        but also on who and what is exposed
+        and how vulnerable those systems are.
+
+      </p>
+
+
+      <div class="topic-grid">
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Hazard
+          </h3>
+
+
+          <p>
+            A potentially damaging
+            climate-related event
+            or physical phenomenon.
+          </p>
+
+        </div>
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Exposure
+          </h3>
+
+
+          <p>
+            People,
+            infrastructure
+            and ecosystems located
+            where climate hazards occur.
+          </p>
+
+        </div>
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Vulnerability
+          </h3>
+
+
+          <p>
+            The characteristics
+            that make people
+            or systems susceptible
+            to climate impacts.
+          </p>
+
+        </div>
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Risk
+          </h3>
+
+
+          <p>
+            The interaction
+            between climate hazards,
+            exposure
+            and vulnerability.
+          </p>
+
+        </div>
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Adaptation
+          </h3>
+
+
+          <p>
+            Actions and decisions
+            that reduce vulnerability
+            or exposure
+            to climate impacts.
+          </p>
+
+        </div>
+
+
+
+        <div class="topic-card">
+
+          <h3>
+            Resilience
+          </h3>
+
+
+          <p>
+            The ability of systems
+            and communities
+            to resist,
+            absorb,
+            recover
+            and adapt.
+          </p>
+
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- RISK WORKFLOW -->
+
+    <section class="course-section">
+
+      <h2>
+        Climate Risk &amp; Adaptation Framework
+      </h2>
+
+
+      <p>
+
+        A simplified way of understanding
+        the module is to move
+        from climate hazards
+        to impacts
+        and then to adaptation responses.
+
+      </p>
+
+
+      <div class="workflow">
+
+
+
+        <div class="workflow-step">
+
+          <div class="workflow-number">
+            1
+          </div>
+
+
+          <h3>
+            Hazard
+          </h3>
+
+
+          <p>
+            Identify the relevant
+            climate event or trend.
+          </p>
+
+        </div>
+
+
+
+        <div class="workflow-step">
+
+          <div class="workflow-number">
+            2
+          </div>
+
+
+          <h3>
+            Exposure
+          </h3>
+
+
+          <p>
+            Identify people,
+            assets
+            and ecosystems at risk.
+          </p>
+
+        </div>
+
+
+
+        <div class="workflow-step">
+
+          <div class="workflow-number">
+            3
+          </div>
+
+
+          <h3>
+            Vulnerability
+          </h3>
+
+
+          <p>
+            Evaluate susceptibility
+            and adaptive capacity.
+          </p>
+
+        </div>
+
+
+
+        <div class="workflow-step">
+
+          <div class="workflow-number">
+            4
+          </div>
+
+
+          <h3>
+            Impact
+          </h3>
+
+
+          <p>
+            Assess realised
+            or potential consequences.
+          </p>
+
+        </div>
+
+
+
+        <div class="workflow-step">
+
+          <div class="workflow-number">
+            5
+          </div>
+
+
+          <h3>
+            Adaptation
+          </h3>
+
+
+          <p>
+            Develop responses
+            to reduce future risk.
+          </p>
+
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- LECTURE MATERIALS -->
+
+    <section class="course-section">
+
+      <h2>
+        Lecture Materials
+      </h2>
+
+
+      <p>
+
+        Browse the ten lecture sets below
+        and open the corresponding course slides.
+
+      </p>
+
+
+      <div class="lecture-list">
+
+
+
+        <!-- 01 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            01
+          </div>
+
+
+          <div>
+
+            <h3>
+              Introduction to Impacts &amp; Adaptation
+            </h3>
+
+
+            <p>
+              Introduction to climate impacts,
+              adaptation,
+              key concepts,
+              terminology,
+              evidence
+              and the structure of the module.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/ia/1_Introduction%20to%20impacts%20and%20adaptation.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- 02 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            02
+          </div>
+
+
+          <div>
+
+            <h3>
+              Regional Impacts &amp; Vulnerability
+            </h3>
+
+
+            <p>
+              Regional climate trends,
+              sectoral impacts,
+              exposure,
+              vulnerability
+              and the factors shaping unequal climate impacts.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/ia/2_regional_sectorial_impacts_2025_oct.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- 03 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            03
+          </div>
+
+
+          <div>
+
+            <h3>
+              Risk &amp; Uncertainty
+            </h3>
+
+
+            <p>
+              Climate risk assessment,
+              hazard,
+              exposure,
+              vulnerability,
+              resilience
+              and uncertainty.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/ia/3_risk_assessment%20(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- 04 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            04
+          </div>
+
+
+          <div>
+
+            <h3>
+              Droughts, Impacts &amp; Adaptation
+            </h3>
+
+
+            <p>
+              Drought hazards,
+              water availability,
+              agricultural impacts,
+              food security
+              and adaptation strategies.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/ia/4_Lecture_Thursday_October30_2025%20(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- 05 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            05
+          </div>
+
+
+          <div>
+
+            <h3>
+              Extreme Event Attribution
+            </h3>
+
+
+            <p>
+              Attribution of extreme weather
+              to human-caused climate change,
+              causal chains,
+              changing probabilities
+              and loss and damage.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/ia/5_attribution.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- 06 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            06
+          </div>
+
+
+          <div>
+
+            <h3>
+              Adaptation
+            </h3>
+
+
+            <p>
+              Adaptation frameworks,
+              proactive and reactive adaptation,
+              adaptive capacity
+              and effective climate responses.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/ia/6_adaptation.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- 07 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            07
+          </div>
+
+
+          <div>
+
+            <h3>
+              Wildfires
+            </h3>
+
+
+            <p>
+              Wildfire drivers,
+              fuel,
+              weather,
+              climate change,
+              impacts,
+              adaptation
+              and common misconceptions.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/ia/7_wildfires.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- 08 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            08
+          </div>
+
+
+          <div>
+
+            <h3>
+              Communication, UNFCCC &amp; Loss and Damage
+            </h3>
+
+
+            <p>
+              Climate communication,
+              misinformation,
+              adaptation effectiveness,
+              loss and damage
+              and its evolution in UNFCCC negotiations.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/ia/8_UNFCCC_LD_Comms%20(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- 09 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            09
+          </div>
+
+
+          <div>
+
+            <h3>
+              Climate Change Impacts on Health
+            </h3>
+
+
+            <p>
+              Heat-related health impacts,
+              vulnerable populations,
+              excess mortality,
+              infectious disease
+              and public-health adaptation.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/ia/9_health_part1%20(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+        <!-- 10 -->
+
+        <div class="lecture">
+
+          <div class="lecture-number">
+            10
+          </div>
+
+
+          <div>
+
+            <h3>
+              Climate Justice
+            </h3>
+
+
+            <p>
+              Distributional,
+              intergenerational
+              and historical dimensions of climate justice,
+              responsibility
+              and maladaptation.
+            </p>
+
+          </div>
+
+
+          <a
+            class="slide-button"
+            href="slides/ia/10_justice_nov25.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Slides →
+          </a>
+
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- DISCLAIMER -->
+
+    <section class="course-section">
+
+      <div class="course-note">
+
+        CCMF Guide is an unofficial student-organised resource.
+
+        Course content,
+        assessment structures
+        and teaching materials may change
+        between academic years.
+
+        Students should refer to official
+        Imperial College London materials
+        for current module requirements.
+
+      </div>
+
+    </section>
+
+
+
+  </main>
+
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      CCMF Guide · Imperial College London
+    </p>
+
+
+    <p class="disclaimer">
+      Unofficial student resource
+    </p>
+
+  </footer>
+
+
+</body>
+
+</html>
